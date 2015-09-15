@@ -22,18 +22,17 @@ var commentData = {}
 var map = new Datamap({
 	scope: 'world',
 	element: document.getElementById('map'),
-	// height: null,
+	width: document.getElementById('map').offsetWidth - 30,
 	data: commentData,
-
-	setProjection: function(element) {
-          var projection = d3.geo.equirectangular()
-          	.scale(element.offsetWidth / 7)
-            .translate([ element.offsetWidth / 2, element.offsetHeight / 2 + 50]);
-          var path = d3.geo.path()
-            .projection(projection);
+	// setProjection: function(element) {
+ //          var projection = d3.geo.equirectangular()
+ //          	.scale(element.offsetWidth/6.5)
+ //            .translate([ element.offsetWidth / 2, element.offsetHeight / 2 ]);
+ //          var path = d3.geo.path()
+ //            .projection(projection);
           
-          return {path: path, projection: projection};
-        },
+ //          return {path: path, projection: projection};
+ //        },
 	done: function(datamap) {
 		datamap.svg.selectAll('.datamaps-subunit').on('click', function(geo) {
 			d3.selectAll('foreignobject').remove();
@@ -86,7 +85,7 @@ window.addEventListener('resize', function() {
         map.resize();
     });
 
-var infoBox = d3.select("#container")
+var infoBox = d3.select(".info")
 	.append("div")
 	.attr("id", "info");
 
@@ -102,7 +101,6 @@ d3.json('/static/comments.json', function(error, data) {
 		var commentData = add_fillKey(data);
 	map.updateChoropleth(commentData);
 
-// append the container for the legend
         d3.select('svg')
           .append('g')
           .attr('class', 'legend');
@@ -111,7 +109,7 @@ d3.json('/static/comments.json', function(error, data) {
           legendBarWidth = 30,
           legendBarHeight = 10,
           legendOffsetX = 30,
-          legendOffsetY = document.getElementById('map').offsetHeight - 200;
+          legendOffsetY = document.getElementById('map').offsetHeight - 100;
 
         // draw the legend
         d3.select('.legend').selectAll('.legend')
