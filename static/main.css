@@ -65,9 +65,27 @@ div.country {
 /*	background-clip: content-box;*/
 }
 
+.comment {
+	margin-top: 1em;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.lquote {
+	font-size: 3em;
+	font-family: times;
+	font-weight: bold;
+}
+
 div.dots {
 	height: 40px;
 	background: black;
 	margin-left: 15px;
 	margin-right: 15px;
 }
+
+.attribute {
+	color: gray;
+	font-size: 0.8em;
+}
+

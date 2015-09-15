@@ -19,6 +19,11 @@ var t = d3.scale.threshold()
 
 var commentData = {}
 
+d3.select('.comment')
+	.style("width", function() {
+		return document.getElementById('comment-bar').offsetWidth;
+	})
+
 var map = new Datamap({
 	scope: 'world',
 	element: document.getElementById('map'),
@@ -35,27 +40,45 @@ var map = new Datamap({
  //        },
 	done: function(datamap) {
 		datamap.svg.selectAll('.datamaps-subunit').on('click', function(geo) {
-			d3.selectAll('foreignobject').remove();
-			d3.select("#info")
-				.append("foreignobject")
-				.attr("x", 0)
-				.attr("height", 200)
-				.append("xhtml:body")
-				.attr("class", "infoText")
+			d3.selectAll('div.comment').remove();
+			d3.select('.comment-box')
+				.append('div')
+				.attr('class', 'comment')
+				.append('p')
 				.html(function() {
-					var topLine = '<h2>User comments from ' + geo.properties.name + ':</h2>';
-					var lines = '<ul>';
 					for (item in commentData) {
 						if (geo.id == item) {
-							for (comment in commentData[item].comments) {
-								lines += '<li>' + commentData[item].comments[comment] + '</li>';
+							if ('comments' in commentData[item]) {
+								console.log(commentData[item]);
+								return '<span class="lquote">&ldquo;</span>' + commentData[item].comments[0] + '<br /><span class="attribute">&mdash; ' + commentData[item].kind + '</span>';
+							} else {
+								return 'No user comments yet from ' + geo.properties.name;
 							}
 						}
 					}
-					lines += '</ul>';
-					
-					return topLine + lines;
 				});
+
+			// d3.selectAll('foreignobject').remove();
+
+			// d3.select(".comment")
+			// 	.append("foreignobject")
+			// 	.attr("x", 0)
+			// 	.append("xhtml:body")
+			// 	.attr("class", "commentText")
+			// 	.html(function() {
+			// 		var topLine = '<h2>User comments from ' + geo.properties.name + ':</h2>';
+			// 		var lines = '<ul>';
+			// 		for (item in commentData) {
+			// 			if (geo.id == item) {
+			// 				for (comment in commentData[item].comments) {
+			// 					lines += '<li>' + commentData[item].comments[comment] + '</li>';
+			// 				}
+			// 			}
+			// 		}
+			// 		lines += '</ul>';
+					
+			// 		return topLine + lines;
+			// 	});
 		});
     },
 	fills: {
@@ -85,10 +108,6 @@ window.addEventListener('resize', function() {
         map.resize();
     });
 
-var infoBox = d3.select(".info")
-	.append("div")
-	.attr("id", "info");
-
 d3.json('/static/comments.json', function(error, data) {
 
 	function add_fillKey(data) {
@@ -101,15 +120,19 @@ d3.json('/static/comments.json', function(error, data) {
 		var commentData = add_fillKey(data);
 	map.updateChoropleth(commentData);
 
-        d3.select('svg')
-          .append('g')
-          .attr('class', 'legend');
-
         var
           legendBarWidth = 30,
           legendBarHeight = 10,
           legendOffsetX = 30,
           legendOffsetY = document.getElementById('map').offsetHeight - 100;
+
+        d3.select('svg')
+          .append('g')
+          .attr('class', 'legend')
+          .append('text')
+          .text("Article Downloads:")
+          .attr('x', legendOffsetX)
+          .attr('y', legendOffsetY);;
 
         // draw the legend
         d3.select('.legend').selectAll('.legend')
@@ -118,7 +141,7 @@ d3.json('/static/comments.json', function(error, data) {
           .append('rect')
             .attr('x', legendOffsetX)
             .attr('y', function(d,i) {
-              return legendOffsetY + legendBarHeight*i;
+              return legendOffsetY + 5 + legendBarHeight*i;
             })
             .attr('width', legendBarWidth)
             .attr('height', legendBarHeight)
@@ -140,7 +163,7 @@ d3.json('/static/comments.json', function(error, data) {
             })
             .attr('x', legendOffsetX+(legendBarWidth*1.25))
             .attr('y', function(d,i){
-              return legendOffsetY + (legendBarHeight*0.9) + legendBarHeight*i;
+              return legendOffsetY + 5 + (legendBarHeight*0.9) + legendBarHeight*i;
             })
             .attr("font-family", "sans-serif")
             .attr("font-size", "10px")
