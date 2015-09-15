@@ -11,19 +11,23 @@
   <body>
     {% block body %}
     <div class="container">
-
-      {% block navbar %}
-        <nav role="navigation" class="navbar navbar-default">
-          <div class="navbar-header">
-              <a href="/" class="navbar-brand">Open Access Stories</a>
+      {% block header %}
+        <div class="row" id="comment-bar">
+          <div class="row row-eq-height">
+            <div class="country">Country image goes here.</div>
+            <div class="comment">Comment goes here.</div>
           </div>
-        </nav>
+
+          <div class="row">
+            <div class="dots"></div>
+          </div>
+        </div>
       {% endblock %}
 
       {% block content %}
-        <div class="row row-eq-height">
+        <div class="row">
           <div class="col-sm-12 col-md-9 panel viz" id="map" style="height: 400px"></div>
-          <div class="col-sm-12 col-md-3 panel info">Information text goes here.</div>
+          <div class="col-sm-12 col-md-3 panel info" style="height:400px">Information text goes here.</div>
         </div>
       {% endblock %}
 
