@@ -41,6 +41,7 @@ var map = new Datamap({
 	done: function(datamap) {
 		datamap.svg.selectAll('.datamaps-subunit').on('click', function(geo) {
 			d3.selectAll('div.comment').remove();
+			d3.selectAll('svg#country').remove();
 			d3.select('.comment-box')
 				.append('div')
 				.attr('class', 'comment')
@@ -49,7 +50,6 @@ var map = new Datamap({
 					for (item in commentData) {
 						if (geo.id == item) {
 							if ('comments' in commentData[item]) {
-								console.log(commentData[item]);
 								return '<span class="lquote">&ldquo;</span>' + commentData[item].comments[0] + '<br /><span class="attribute">&mdash; ' + commentData[item].kind + '</span>';
 							} else {
 								return 'No user comments yet from ' + geo.properties.name;
@@ -57,6 +57,46 @@ var map = new Datamap({
 						}
 					}
 				});
+
+			var gj = {"type": "FeatureCollection","features":[geo]};
+
+			var projection = d3.geo.equirectangular()
+			    .scale(1)
+			    .translate([0, 0]);
+
+			var path = d3.geo.path()
+				.projection(projection);
+
+			var b = path.bounds(gj.features[0]),
+			    s = .95 / Math.max((b[1][0] - b[0][0]) / 170, (b[1][1] - b[0][1]) / 160),
+			    t = [(170 - s * (b[1][0] + b[0][0])) / 2, (200 - s * (b[1][1] + b[0][1])) / 2];
+
+			projection
+				.scale(s)
+				.translate(t);
+
+			d3.select('.country')
+		    	.append('svg')
+		    	.attr('id', 'country')
+		    	.attr('width', 170)
+		    	.attr('height', 200);
+
+			d3.select('#country')
+				.selectAll('path')
+    			.data(gj.features)
+  				.enter()
+  				.append('path')
+    			.attr('d', path)
+    			.attr('fill', function() {
+    				for (item in commentData) {
+						if (geo.id == item) {
+							if ('fillKey' in commentData[item]) {
+								return colorScale[commentData[item].fillKey.slice(1)];
+							}
+						}
+					}
+					return 'white';
+    			});
 
 			// d3.selectAll('foreignobject').remove();
 
@@ -117,59 +157,59 @@ d3.json('/static/comments.json', function(error, data) {
 		}
 		return new_data;
 	}
-		var commentData = add_fillKey(data);
+
+	var commentData = add_fillKey(data);
 	map.updateChoropleth(commentData);
 
-        var
-          legendBarWidth = 30,
-          legendBarHeight = 10,
-          legendOffsetX = 30,
-          legendOffsetY = document.getElementById('map').offsetHeight - 100;
+    var
+      legendBarWidth = 30,
+      legendBarHeight = 10,
+      legendOffsetX = 30,
+      legendOffsetY = document.getElementById('map').offsetHeight - 100;
 
-        d3.select('svg')
-          .append('g')
-          .attr('class', 'legend')
-          .append('text')
-          .text("Article Downloads:")
-          .attr('x', legendOffsetX)
-          .attr('y', legendOffsetY);;
+    d3.select('svg')
+      .append('g')
+      .attr('class', 'legend')
+      .append('text')
+      .text("Article Downloads:")
+      .attr('x', legendOffsetX)
+      .attr('y', legendOffsetY);;
 
-        // draw the legend
-        d3.select('.legend').selectAll('.legend')
-        .data(colorScale)
-        .enter()
-          .append('rect')
-            .attr('x', legendOffsetX)
-            .attr('y', function(d,i) {
-              return legendOffsetY + 5 + legendBarHeight*i;
-            })
-            .attr('width', legendBarWidth)
-            .attr('height', legendBarHeight)
-            .attr('fill', function(d){ return d; });
+    // draw the legend
+    d3.select('.legend').selectAll('.legend')
+    .data(colorScale)
+    .enter()
+      .append('rect')
+        .attr('x', legendOffsetX)
+        .attr('y', function(d,i) {
+          return legendOffsetY + 5 + legendBarHeight*i;
+        })
+        .attr('width', legendBarWidth)
+        .attr('height', legendBarHeight)
+        .attr('fill', function(d){ return d; });
 
-        // draw the legend text labels
-        d3.select('.legend').selectAll('.legend')
-        .data(colorScale)
-        .enter()
-          .append('text')
-            .text(function(d,i) {
-              var quantizedRange = t.invertExtent('q'+i);
-              	if (i == 0) {
-              		return '0 - ' + quantizedRange[1];
-              	} else {
-	              return quantizedRange[0] + ' - ' +
-	              quantizedRange[1];
-          		}
-            })
-            .attr('x', legendOffsetX+(legendBarWidth*1.25))
-            .attr('y', function(d,i){
-              return legendOffsetY + 5 + (legendBarHeight*0.9) + legendBarHeight*i;
-            })
-            .attr("font-family", "sans-serif")
-            .attr("font-size", "10px")
-            .attr("fill", "black");
+    // draw the legend text labels
+    d3.select('.legend').selectAll('.legend')
+    .data(colorScale)
+    .enter()
+      .append('text')
+        .text(function(d,i) {
+          var quantizedRange = t.invertExtent('q'+i);
+          	if (i == 0) {
+          		return '0 - ' + quantizedRange[1];
+          	} else {
+              return quantizedRange[0] + ' - ' +
+              quantizedRange[1];
+      		}
+        })
+        .attr('x', legendOffsetX+(legendBarWidth*1.25))
+        .attr('y', function(d,i){
+          return legendOffsetY + 5 + (legendBarHeight*0.9) + legendBarHeight*i;
+        })
+        .attr("font-family", "sans-serif")
+        .attr("font-size", "10px")
+        .attr("fill", "black");
 
-    
 	});
 
 // window.addEventListener('resize', function() {
