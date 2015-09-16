@@ -24,30 +24,6 @@ d3.select('.comment')
 		return document.getElementById('comment-bar').offsetWidth;
 	})
 
-function wrap(text, width) {
-  text.each(function() {
-    var text = d3.select(this),
-        words = text.text().split(/\s+/).reverse(),
-        word,
-        line = [],
-        lineNumber = 0,
-        lineHeight = 1.1, // ems
-        y = text.attr("y"),
-        dy = parseFloat(text.attr("dy")),
-        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
-    while (word = words.pop()) {
-      line.push(word);
-      tspan.text(line.join(" "));
-      if (tspan.node().getComputedTextLength() > width) {
-        line.pop();
-        tspan.text(line.join(" "));
-        line = [word];
-        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
-      }
-    }
-  });
-}
-
 var map = new Datamap({
 	scope: 'world',
 	element: document.getElementById('map'),
@@ -92,7 +68,7 @@ var map = new Datamap({
 				.projection(projection);
 
 			var b = path.bounds(gj.features[0]),
-			    s = .95 / Math.max((b[1][0] - b[0][0]) / 170, (b[1][1] - b[0][1]) / 140),
+			    s = .95 / Math.max((b[1][0] - b[0][0]) / 200, (b[1][1] - b[0][1]) / 200),
 			    t = [(170 - s * (b[1][0] + b[0][0])) / 2, (200 - s * (b[1][1] + b[0][1])) / 2];
 
 			projection
@@ -111,40 +87,46 @@ var map = new Datamap({
   				.enter()
   				.append('path')
     			.attr('d', path)
-    			.attr('fill', function() {
-    				for (item in commentData) {
-						if (geo.id == item) {
-							if ('fillKey' in commentData[item]) {
-								return colorScale[commentData[item].fillKey.slice(1)];
-							}
-						}
-					}
-					return 'white';
-    			});
+    			.attr('fill', 'rgb(131,145,186)');
+    				// function() {
+    	// 			for (item in commentData) {
+					// 	if (geo.id == item) {
+					// 		if ('fillKey' in commentData[item]) {
+					// 			return colorScale[commentData[item].fillKey.slice(1)];
+					// 		}
+					// 	}
+					// }
+					// return 'white';
+    			// });
 
     		d3.select('#country')
 	    		.append('text')
 	    		.text(function() {
-	    			return wrap(geo.properties.name, 170);
+	    			return geo.properties.name;
 	    		})
-	    		.attr('x', 170/2)
-	    		.attr('y', 25)
+	    		.attr('class', 'wrap')
 	    		.style('text-anchor', 'middle')
-	    		.style('font-size', '1.5em')
+	    		.style('font-size', '1.8em')
 	    		.style('font-weight', 'bold');
+
+	    	d3plus.textwrap()
+    			.container(d3.select(".wrap"))
+    			.width(170)
+    			.x(0)
+    			.y(25)
+    			.draw();
 
 	    	d3.select('#country')
 	    		.append('text')
 	    		.text(function() {
 	    			for (item in commentData) {
 						if (geo.id == item) {
-							console.log(commentData);
 	    					return commentData[item].downloads + ' downloads';
 	    				}
 	    			}
 	    		})
 	    		.attr('x', 170/2)
-	    		.attr('y', 180)
+	    		.attr('y', 168)
 	    		.style('text-anchor', 'middle')
 
 	    	d3.select('#country')
@@ -152,13 +134,12 @@ var map = new Datamap({
 	    		.text(function() {
 	    			for (item in commentData) {
 						if (geo.id == item) {
-							console.log(commentData);
 	    					return commentData[item].num_comments + ' user comments';
 	    				}
 	    			}
 	    		})
 	    		.attr('x', 170/2)
-	    		.attr('y', 195)
+	    		.attr('y', 185)
 	    		.style('text-anchor', 'middle');
 
 			// d3.selectAll('foreignobject').remove();
