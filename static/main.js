@@ -18,6 +18,8 @@ var t = d3.scale.threshold()
 	.range(['q0', 'q1', 'q2', 'q3', 'q4', 'q5']);
 
 var commentData = {}
+var currIndex;
+var maxIndex;
 
 d3.select('.comment')
 	.style("width", function() {
@@ -29,32 +31,38 @@ var map = new Datamap({
 	element: document.getElementById('map'),
 	width: document.getElementById('map').offsetWidth - 30,
 	data: commentData,
-	// setProjection: function(element) {
- //          var projection = d3.geo.equirectangular()
- //          	.scale(element.offsetWidth/6.5)
- //            .translate([ element.offsetWidth / 2, element.offsetHeight / 2 ]);
- //          var path = d3.geo.path()
- //            .projection(projection);
-          
- //          return {path: path, projection: projection};
- //        },
 	done: function(datamap) {
-		datamap.svg.selectAll('.datamaps-subunit').on('click', function(geo) {
+		datamap.svg.selectAll('.datamaps-subunit')
+		.on('click', function(geo) {
 			d3.selectAll('div.comment').remove();
 			d3.selectAll('svg#country').remove();
+			d3.selectAll('nav').remove();
+
+			var tempData;
+			var tempItem;
+			currIndex = 0;
+
+			for (item in commentData) {
+				if (geo.id == item) {
+					tempData = commentData[item];
+					tempItem = item;
+					if ('comments' in tempData) {
+						maxIndex = tempData.comments.length - 1;
+					} else {
+						maxIndex = 0;
+					}
+				}
+			}
+
 			d3.select('.comment-box')
 				.append('div')
 				.attr('class', 'comment')
 				.append('p')
 				.html(function() {
-					for (item in commentData) {
-						if (geo.id == item) {
-							if ('comments' in commentData[item]) {
-								return '<span class="lquote">&ldquo;</span>' + commentData[item].comments[0] + '<br /><span class="attribute">&mdash; ' + commentData[item].kind + '</span>';
-							} else {
-								return 'No user comments yet from ' + geo.properties.name;
-							}
-						}
+					if ('comments' in tempData) {
+						return '<span class="lquote">&ldquo;</span>' + tempData.comments[0] + '<br /><span class="attribute">&mdash; ' + tempData.kind[0] + '</span>';
+					} else {
+						return 'No user comments yet from ' + geo.properties.name;
 					}
 				});
 
@@ -88,16 +96,6 @@ var map = new Datamap({
   				.append('path')
     			.attr('d', path)
     			.attr('fill', 'rgb(131,145,186)');
-    				// function() {
-    	// 			for (item in commentData) {
-					// 	if (geo.id == item) {
-					// 		if ('fillKey' in commentData[item]) {
-					// 			return colorScale[commentData[item].fillKey.slice(1)];
-					// 		}
-					// 	}
-					// }
-					// return 'white';
-    			// });
 
     		d3.select('#country')
 	    		.append('text')
@@ -119,11 +117,7 @@ var map = new Datamap({
 	    	d3.select('#country')
 	    		.append('text')
 	    		.text(function() {
-	    			for (item in commentData) {
-						if (geo.id == item) {
-	    					return commentData[item].downloads + ' downloads';
-	    				}
-	    			}
+	    			return tempData.downloads + ' downloads';
 	    		})
 	    		.attr('x', 170/2)
 	    		.attr('y', 168)
@@ -132,37 +126,48 @@ var map = new Datamap({
 	    	d3.select('#country')
 	    		.append('text')
 	    		.text(function() {
-	    			for (item in commentData) {
-						if (geo.id == item) {
-	    					return commentData[item].num_comments + ' user comments';
-	    				}
-	    			}
+	    			return tempData.num_comments + ' user comments';
 	    		})
 	    		.attr('x', 170/2)
 	    		.attr('y', 185)
 	    		.style('text-anchor', 'middle');
 
-			// d3.selectAll('foreignobject').remove();
+	    	if (tempData['num_comments'] > 0) {
+		    	d3.select('.dots')
+		    		.append('nav')
+		    		.append('ul')
+		    		.attr('class', 'pagination')
+		    		.append('li')
+		    		.attr('class', 'back-button')
+		    		.classed('disabled', true)
+		    		.html(function() {
+		    			var s = currIndex - 1;
+		    			return '<a onClick="loadPrevious(\'' + tempItem + '\'); return false;" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>'
+		    		});
 
-			// d3.select(".comment")
-			// 	.append("foreignobject")
-			// 	.attr("x", 0)
-			// 	.append("xhtml:body")
-			// 	.attr("class", "commentText")
-			// 	.html(function() {
-			// 		var topLine = '<h2>User comments from ' + geo.properties.name + ':</h2>';
-			// 		var lines = '<ul>';
-			// 		for (item in commentData) {
-			// 			if (geo.id == item) {
-			// 				for (comment in commentData[item].comments) {
-			// 					lines += '<li>' + commentData[item].comments[comment] + '</li>';
-			// 				}
-			// 			}
-			// 		}
-			// 		lines += '</ul>';
-					
-			// 		return topLine + lines;
-			// 	});
+		    	d3.select('.pagination')
+			    	.selectAll('li')
+		    		.data(tempData.comments, function(d, i) {
+		    			return d;
+		    		})
+		    		.enter()
+		    		.append('li')
+		    		.attr('class', function(d, i) {
+		    			return 'num' + i;
+		    		})
+		    		.html(function(d, i) {
+		    			var n = i + 1;
+		    			return '<a onClick="loadComment(\'' + tempItem + '\', + ' + i + '); return false;" href="#">' + n + '</a>';
+		    		});   
+
+		    	d3.select('.pagination')
+		    		.append('li')
+		    		.attr('class', 'next-button')
+		    		.html(function() {
+		    			var s = currIndex + 1;
+		    			return '<a onClick="loadNext(\'' + tempItem + '\'); return false;" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>'
+		    		});
+		    };
 		});
     },
 	fills: {
@@ -255,6 +260,62 @@ d3.json('/static/comments.json', function(error, data) {
         .attr("fill", "black");
 
 	});
+
+function loadComment(c, n) {
+	d3.selectAll('div.comment').remove();
+	currIndex = n;
+	console.log(currIndex);
+
+	d3.select('.back-button')
+		.classed('active', false);
+	d3.select('.next-button')
+		.classed('active', false);		
+
+	d3.select('.comment-box')
+		.append('div')
+		.attr('class', 'comment')
+		.append('p')
+		.html(function() {
+			return '<span class="lquote">&ldquo;</span>' + commentData[c].comments[n] + '<br /><span class="attribute">&mdash; ' + commentData[c].kind[n] + '</span>';
+		});
+
+	if (currIndex == 0) {
+		d3.select('.back-button')
+			.classed('disabled', true);
+	} else {
+		d3.select('.back-button')
+			.classed('disabled', false);
+	}
+
+	if (currIndex == maxIndex) {
+		d3.select('.next-button')
+			.classed('disabled', true);
+	} else {
+		d3.select('.next-button')
+			.classed('disabled', false);
+	}
+
+	for (j=0; j<=maxIndex; j++) {
+		if (j == n) {
+			d3.select('.num'+j)
+				.classed('active', true);
+		} else {
+			d3.select('.num'+j)
+				.classed('active', false);
+		}
+	}
+
+};
+
+function loadNext(c) {
+	var next = currIndex + 1;
+	loadComment(c, next);
+};
+
+function loadPrevious(c) {
+	var prev = currIndex - 1;
+	loadComment(c, prev);
+}
 
 // window.addEventListener('resize', function() {
 //     map.resize();

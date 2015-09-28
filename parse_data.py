@@ -64,10 +64,11 @@ def add_to_json(json_data, list_data):
 		country = row[0]
 		if country in json_data:
 			if 'comments' in json_data[country]:
+				json_data[country]['kind'].append(row[1])
 				json_data[country]['comments'].append(row[3])
 				json_data[country]['num_comments'] += 1
 			else:
-				json_data[country]['kind'] = row[1]
+				json_data[country]['kind'] = [row[1]]
 				json_data[country]['article'] = row[2]
 				json_data[country]['comments'] = [row[3]]
 				json_data[country]['num_comments'] = 1

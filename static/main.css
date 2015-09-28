@@ -27,11 +27,11 @@
 	float: left;
 }*/
 
-/** {
+* {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
           border-radius: 0 !important;
-}*/
+}
 
 .container {
 	height: 100%;
@@ -70,6 +70,13 @@ div.country {
 	line-height: 1.5em;
 }
 
+.comment-box {
+	height: 200px;
+	overflow-y: auto;
+	padding-right: 0;
+	margin-right: 15px;
+}
+
 .lquote {
 	font-size: 3em;
 	font-family: times;
@@ -88,3 +95,31 @@ div.dots {
 	font-size: 0.8em;
 }
 
+ul.pagination {
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+
+.pagination li a {
+	border: none;
+	background-color: black;
+	color: white;
+}
+
+/*.pagination li a:hover {
+	background-color: black;
+	color: white;
+}
+
+.pagination .active li a {
+  background-color: white;
+  color: gray;
+  cursor: default;
+  pointer-events: none;
+}*/
+
+.pagination .disabled a {
+	color: gray;
+	background-color: black;
+	pointer-events: none;
+}
