@@ -347,15 +347,17 @@
         "downloads": "49"
     }, 
     "DEU": {
-        "num_comments": 2, 
+        "num_comments": 3, 
         "downloads": "165511", 
         "kind": [
             "Faculty researcher", 
+            "Student", 
             "Student"
         ], 
         "comments": [
             "I want to provide my students with a good selection of relevant papers on systems biology modeling \u2026 as I am teaching in an international curriculum, my students appreciate very much when I select \u2026 documents made available open access. In their home countries, open access is the prime route for scientific (scholarly) information\u2026 So, thanks to you, colleagues, also in the name of my students. As a scientific advisor to the German National Library of Medicine I am a strong supporter of open access and I am happy to see that MIT is one of the front runners in the community effort to make scientific information as freely available as possible.", 
-            "Open Access is important if we want to generate knowledge that\u2019s not elitist."
+            "Open Access is important if we want to generate knowledge that\u2019s not elitist.", 
+            "I am a PhD student at a rather big university in Germany and even here we don't have access to all relevant papers we need to produce relevant and impactful research. If one imagines the situation at smaller universities or universities in less fortunate countries it is clear that the current publishing model is detrimental to the open spirit which underlies rigorous scientific advancement. I sincerely thank the MIT faculty for providing open access to their work and hope that open access will become the norm in scientific publishing. "
         ], 
         "article": ""
     }, 
@@ -372,21 +374,23 @@
         "downloads": "1"
     }, 
     "GBR": {
-        "num_comments": 5, 
+        "num_comments": 6, 
         "downloads": "137894", 
         "kind": [
             "Reader", 
             "Student", 
             "Student", 
             "Student advisor/mentor", 
-            "Retired mathematician"
+            "Retired mathematician", 
+            "Corporate researcher"
         ], 
         "comments": [
             "I have a full time job entirely unrelated to film studies, but occasionally write academic papers for publishing. I cannot gain access to closed articles through my work, I have no student access and am not in a financial position to pay for each individual article on the off chance that it may be of use to me. I rely on open access archives like this to be able to continue with what is essentially a hobby for me, and appreciate very much that these resources enable me to do so. Thank you very much!", 
             "The article I\u2019m reading directly impacts my [global climate] research\u2026 The information in this article is very important for me because it indicates that there is a way to generate a more accurate age model for ferromanganese crusts.", 
             "I am researching for my Masters in Computer Science project and was unable to access a paper through my college. I was able to find it via MIT and it helped me understand the current knowledge of a subject, and extend it in my project.", 
             "Thank you. It so helps when writing dissertations to have research readily available without having to go through endless hoops to get there. Much appreciated.", 
-            "Being a retired academic, but still active I rely on open access material, as I don't now have access to journals, for licencing reasons, and it is far too expensive to purchase copies on-line. There are two reasons for this. Firstly the volume of material that one needs to access is large. Secondly, one cannot be absolutely certain of wishing to study a particular paper in until one has browsed it, as abstracts don't always give a clear enough indication. So one would rapidly incur a substantial expenditure. The DeepDyve facility alleviates this to a degree but it still remains very expensive for an individual. Its also very irritating, having provided services as an author and referee to these scientific journals free of charge not to be able to gain access, to say nothing of the public expenditure that enables the content to be created."
+            "Being a retired academic, but still active I rely on open access material, as I don't now have access to journals, for licencing reasons, and it is far too expensive to purchase copies on-line. There are two reasons for this. Firstly the volume of material that one needs to access is large. Secondly, one cannot be absolutely certain of wishing to study a particular paper in until one has browsed it, as abstracts don't always give a clear enough indication. So one would rapidly incur a substantial expenditure. The DeepDyve facility alleviates this to a degree but it still remains very expensive for an individual. Its also very irritating, having provided services as an author and referee to these scientific journals free of charge not to be able to gain access, to say nothing of the public expenditure that enables the content to be created.", 
+            "I'm researching a PhD (part time) related to Human Factors (HF) in blood transfusion.  I have extensive knowledge of transfusion, but very limited knowledge of HF.  I have access to medical and scientific journals through my work in transfusion, but little or no access to HF papers for bacground reading.  I have downloaded a couple of MIT 'author's last manuscript' articles which have been invaluable.  Many thanks."
         ], 
         "article": ""
     }, 
@@ -436,15 +440,13 @@
         "downloads": "682"
     }, 
     "NLD": {
-        "num_comments": 2, 
+        "num_comments": 1, 
         "downloads": "43743", 
         "kind": [
-            "Student", 
-            "Electrical engineer"
+            "Student"
         ], 
         "comments": [
-            "Thank you for sharing. Open Access is the future!", 
-            "I am an Electrical Engineer currently working on PV plants and Gensets integration. This article has provided some useful information!"
+            "Thank you for sharing. Open Access is the future!"
         ], 
         "article": ""
     }, 
@@ -739,8 +741,15 @@
         "downloads": "3819"
     }, 
     "FRA": {
-        "num_comments": 0, 
-        "downloads": "241996"
+        "num_comments": 1, 
+        "downloads": "241996", 
+        "kind": [
+            "University faculty researcher"
+        ], 
+        "comments": [
+            "Thank you very much for making your articles openly available. I regularly read papers from the CSAIL and greatly appreciate the easy access to these papers."
+        ], 
+        "article": "dspace.mit.edu/openaccess-disseminate/1721.1/62576"
     }, 
     "LTU": {
         "num_comments": 0, 
@@ -915,7 +924,7 @@
         "downloads": "786"
     }, 
     "USA": {
-        "num_comments": 42, 
+        "num_comments": 46, 
         "downloads": "1178681", 
         "kind": [
             "Independent researcher", 
@@ -959,7 +968,11 @@
             "Workforce analyst for state government", 
             "Plant operations", 
             "Student", 
-            "Primary caregiver"
+            "Primary caregiver", 
+            "Management consultant", 
+            "Patient", 
+            "Personal interest in aviation and the X-15", 
+            "University faculty researcher"
         ], 
         "comments": [
             "I am currently working on prison reform with a number of non-profit organizations in Massachusetts. At present, there are very few randomized controlled trials of what works and what doesn't. The paper by Aizer and Doyle is very important in showing us one way in which this kind of study can be undertaken. ", 
@@ -1003,7 +1016,11 @@
             "This greatly benefits me.  I'm a workforce analyst that needs to understand and use this key piece of research in the literature, but work for a state agency that doesn't have the greatest library resources.  Thank you, MIT, for this vital service.", 
             "I work on a diversity team inside my small business unit of a multi-national conglomeration ... and I am dedicated to the hiring, retention and development of female engineers in my predominantly male-dominated organization.  I found a link to this paper's abstract on an Atlantic article and I was immediately excited: this had been the EXACT argument I had made to our male R&D Leader.  It'll be nice to have some figures to back up my facts!", 
             "Having access to this article helped me write an engineering paper for a graduate level systems engineering class... I would have given up trying to read and cite this article if not for the Open Access initiative. ", 
-            "Wife of 45 years recently diagnosed with Alzheimer's Disease, so as primary caregiver I'm trying to get up to speed on managing her condition as quickly as possible."
+            "Wife of 45 years recently diagnosed with Alzheimer's Disease, so as primary caregiver I'm trying to get up to speed on managing her condition as quickly as possible.", 
+            "I am a self-employed management consultant focused mainly in strategy and market analysis for tech companies.  My typical client is a manufacturing and design firm making electronic components.  A typical project would be to help the client form an assessment of the opportunity afforded by entry into a new vertical market segment. I have been following developments in silicon photonics for several years.  My purpose in doing so is I believe this emerging technology could be of high interest to future clients", 
+            "I'm indeed very grateful for the availability of this article. When I was 7 I was almost killed in the playground bombing at Poe Elementary School in Houston. My TBI is classified as moderate. I have been disabled all of my adult life. Recently I read about low level laser therapy for TBI in Dr Norman Doidge's latest book and was fascinated by its apparent possibilities.", 
+            "Even as a non-technical reader, I gained additional insights into the workings of the MH-96 system to round out my personal interest in the development and testing of the X-15.", 
+            "I am doing research for a government standard RF waveform supporting transport of ISR video. The article on the MIT Open Access was a huge help in helping understand this research area."
         ], 
         "article": "A. Aizer and J.J. Doyle, Juvenile Incarceration, Human Capital, and Future Crime: Evidence from Randomly Assigned Judges"
     }, 
