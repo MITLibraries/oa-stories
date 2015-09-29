@@ -322,6 +322,13 @@ function draw_single_country(geo) {
     		.attr('class', function(d, i) {
     			return 'num' + i;
     		})
+    		.classed('active', function(d, i) {
+    			if (i == 0) {
+    				return true;
+    			} else {
+    				return false;
+    			}
+    		})
     		.html(function(d, i) {
     			var n = i + 1;
     			return '<a onClick="loadComment(\'' + tempItem + '\', + ' + i + '); return false;" href="#">' + n + '</a>';
