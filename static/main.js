@@ -105,7 +105,10 @@ d3.json('/static/comments.json', function(error, data) {
         })
         .attr('width', legendBarWidth)
         .attr('height', legendBarHeight)
-        .attr('fill', function(d){ return d; });
+        .attr('fill', function(d){ return d; })
+        .style('stroke', 'black')
+        .style('stroke-width', 1)
+        .style('opacity', 1);
 
     // draw the legend text labels
     d3.select('.legend').selectAll('.legend')
