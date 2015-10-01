@@ -574,16 +574,14 @@
         "downloads": "20856"
     }, 
     "NOR": {
-        "num_comments": 3, 
+        "num_comments": 2, 
         "downloads": "6804", 
         "kind": [
-            "Student", 
             "Student", 
             "Corporate researcher"
         ], 
         "comments": [
             "I am studying for my exam and this helps met to understand more about the great depression and the great recession! Thanks :-)", 
-            "I am studying for my exam and this helps met to understand more about the great depression and the great recession! Thanks:-)", 
             "I was part of a working group that met during the NetMob conference this spring in Boston. The topic was reconciling privacy concerns with use of mobile phone data. Your paper turned up in the course of writing a working paper based on our discussions. I found the paper to be very well written and clear - addressing high level questions. The kind of paper I want our Privacy Officers to read (I work for a global telecom)."
         ], 
         "article": ""
