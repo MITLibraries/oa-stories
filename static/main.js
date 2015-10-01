@@ -314,6 +314,13 @@ function draw_single_country(geo) {
     			var s = currIndex - 1;
     			return '<a onClick="loadPrevious(\'' + tempItem + '\'); return false;" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>'
     		});
+		d3.select('.pagination')
+    		.append('li')
+    		.attr('class', 'next-button')
+    		.html(function() {
+    			var s = currIndex + 1;
+    			return '<a onClick="loadNext(\'' + tempItem + '\'); return false;" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>'
+    		});
 
     	d3.select('.pagination')
 	    	.selectAll('li')
@@ -336,13 +343,5 @@ function draw_single_country(geo) {
     			var n = i + 1;
     			return '<a onClick="loadComment(\'' + tempItem + '\', + ' + i + '); return false;" href="#">' + n + '</a>';
     		});   
-
-    	d3.select('.pagination')
-    		.append('li')
-    		.attr('class', 'next-button')
-    		.html(function() {
-    			var s = currIndex + 1;
-    			return '<a onClick="loadNext(\'' + tempItem + '\'); return false;" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>'
-    		});
     }
 }
