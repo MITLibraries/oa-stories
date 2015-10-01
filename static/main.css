@@ -78,20 +78,37 @@ ul.pagination {
 	color: white;
 }
 
-/*.pagination li a:hover {
-	background-color: black;
-	color: white;
+.pagination a:active {
+  	background-color: white !important;
+  	color: black;
+  	cursor: default;
 }
 
-.pagination .active li a {
-  background-color: white;
-  color: gray;
-  cursor: default;
-  pointer-events: none;
-}*/
+.pagination .active a {
+  	background-color: white !important;
+  	color: black !important;
+  	cursor: default;
+}
+
+.pagination a:hover {
+	background-color: white !important;
+	color: black !important;
+}
 
 .pagination .disabled a {
 	color: gray;
-	background-color: black;
+	background-color: black !important;
+	pointer-events: none;
+}
+
+.pagination .active li {
+	background-color: white !important;
+  	color: black;
+  	cursor: default;	
+}
+
+.pagination .disabled li {
+	color: gray;
+	background-color: black !important;
 	pointer-events: none;
 }

@@ -317,6 +317,13 @@ function draw_single_country(geo) {
 		d3.select('.pagination')
     		.append('li')
     		.attr('class', 'next-button')
+    		.classed('disabled', function(d, i) {
+    			if (currIndex == maxIndex) {
+    				return true;
+    			} else {
+    				return false;
+    			}
+    		})
     		.html(function() {
     			var s = currIndex + 1;
     			return '<a onClick="loadNext(\'' + tempItem + '\'); return false;" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>'
