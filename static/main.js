@@ -312,56 +312,15 @@ function draw_single_country(geo) {
 	        	loadComment(tempItem, pageNumber-1);
         	}
     	});
+
+	    var checkFragment = function() {
+	        var hash = window.location.hash || "#page-1";
+	        hash = hash.match(/^#page-(\d+)$/);
+	        if(hash)
+	            $(".dots").pagination("selectPage", parseInt(hash[1]));
+	    };
+
+	    $(window).bind("popstate", checkFragment);
+	    checkFragment();
 	});
-
-
-	// if (tempData['num_comments'] > 0) {
- //    	d3.select('.dots')
- //    		.append('nav')
- //    		.append('ul')
- //    		.attr('class', 'pagination')
- //    		.append('li')
- //    		.attr('class', 'back-button')
- //    		.classed('disabled', true)
- //    		.html(function() {
- //    			var s = currIndex - 1;
- //    			return '<a onClick="loadPrevious(\'' + tempItem + '\'); return false;" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>'
- //    		});
-	// 	d3.select('.pagination')
- //    		.append('li')
- //    		.attr('class', 'next-button')
- //    		.classed('disabled', function(d, i) {
- //    			if (currIndex == maxIndex) {
- //    				return true;
- //    			} else {
- //    				return false;
- //    			}
- //    		})
- //    		.html(function() {
- //    			var s = currIndex + 1;
- //    			return '<a onClick="loadNext(\'' + tempItem + '\'); return false;" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>'
- //    		});
-
- //    	d3.select('.pagination')
-	//     	.selectAll('li')
- //    		.data(tempData.comments, function(d, i) {
- //    			return d;
- //    		})
- //    		.enter()
- //    		.append('li')
- //    		.attr('class', function(d, i) {
- //    			return 'num' + i;
- //    		})
- //    		.classed('active', function(d, i) {
- //    			if (i == 0) {
- //    				return true;
- //    			} else {
- //    				return false;
- //    			}
- //    		})
- //    		.html(function(d, i) {
- //    			var n = i + 1;
- //    			return '<a onClick="loadComment(\'' + tempItem + '\', + ' + i + '); return false;" href="#">' + n + '</a>';
- //    		});   
- //    }
 }
