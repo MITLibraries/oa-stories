@@ -59,7 +59,7 @@ div.dots {
 	background: black;
 	margin-left: 15px;
 	margin-right: 15px;
-	overflow: hidden;
+	padding-left: 6px;
 }
 
 .attribute {
@@ -67,62 +67,22 @@ div.dots {
 	font-size: 0.8em;
 }
 
-ul.pagination {
-	margin-top: 4px;
+.simple-pagination ul {
+	margin-top: 6px;
 	margin-bottom: 0;
-}
-
-.pagination li a {
-	border: none;
-	background-color: black;
-	color: white;
-}
-
-.pagination a:active {
-  	background-color: white !important;
-  	color: black;
-  	cursor: default;
-}
-
-.pagination .active a {
-  	background-color: white !important;
-  	color: black !important;
-  	cursor: default;
-}
-
-.pagination a:hover {
-	background-color: white !important;
-	color: black !important;
-}
-
-.pagination .disabled a {
-	color: gray;
-	background-color: black !important;
-	pointer-events: none;
-}
-
-.pagination .active li {
-	background-color: white !important;
-  	color: black;
-  	cursor: default;	
-}
-
-.pagination .disabled li {
-	color: gray;
-	background-color: black !important;
-	pointer-events: none;
 }
 
 .panel-footer {
 	margin-left: -15px;
 	margin-right: -15px;
 	height: 70px;
-/*	background-color: gray !important;*/
-/*	color: white;*/
+	background: black;
 }
 
 #footer {
+	color: #B4B3B1;
 	height: 50px;
+	line-height: 50px;
 	text-align: center;
 	vertical-align: bottom;
 }
@@ -130,11 +90,22 @@ ul.pagination {
 .logo-mit-lib {
 	float: left;
 	display: block;
-	padding-left: 1.375em;
-	width: 137px;
+	padding-left: 0;
+	width: 120px;
+	height: 50px;
+	fill: white;
 }
 
 .link-logo-mit {
 	float: right;
-	padding-top: 1.5em;
+	padding-top: 20px;
+	fill: #B4B3B1;
+}
+
+.link-logo-mit .color {
+	fill: white;
+}
+
+.link-logo-mit:hover {
+	fill: white;
 }
