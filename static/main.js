@@ -308,6 +308,7 @@ function draw_single_country(geo) {
 	        cssStyle: "dark-theme",
 	        prevText: "<<",
 	        nextText: ">>",
+	        nextAtFront: true,
 	        onPageClick: function(pageNumber) { 
 	        	loadComment(tempItem, pageNumber-1);
 	        	return false;

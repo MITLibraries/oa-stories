@@ -60,6 +60,7 @@ div.dots {
 	margin-left: 15px;
 	margin-right: 15px;
 	padding-left: 6px;
+	overflow: hidden;
 }
 
 .attribute {
@@ -98,14 +99,5 @@ div.dots {
 
 .link-logo-mit {
 	float: right;
-	padding-top: 20px;
-	fill: #B4B3B1;
-}
-
-.link-logo-mit .color {
-	fill: white;
-}
-
-.link-logo-mit:hover {
-	fill: white;
+	height: 50px;
 }
