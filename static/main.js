@@ -310,17 +310,8 @@ function draw_single_country(geo) {
 	        nextText: ">>",
 	        onPageClick: function(pageNumber) { 
 	        	loadComment(tempItem, pageNumber-1);
+	        	return false;
         	}
     	});
-
-	    var checkFragment = function() {
-	        var hash = window.location.hash || "#page-1";
-	        hash = hash.match(/^#page-(\d+)$/);
-	        if(hash)
-	            $(".dots").pagination("selectPage", parseInt(hash[1]));
-	    };
-
-	    $(window).bind("popstate", checkFragment);
-	    checkFragment();
 	});
 }
