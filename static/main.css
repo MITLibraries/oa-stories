@@ -63,6 +63,10 @@ div.dots {
 	overflow: hidden;
 }
 
+span.ellipse {
+	color: gray;
+}
+
 .attribute {
 	color: gray;
 	font-size: 0.8em;

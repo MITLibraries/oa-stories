@@ -151,7 +151,7 @@ function loadComment(c, n) {
 	d3.select('.back-button')
 		.classed('active', false);
 	d3.select('.next-button')
-		.classed('active', false);		
+		.classed('active', false);
 
 	d3.select('.comment-box')
 		.append('div')
@@ -309,7 +309,8 @@ function draw_single_country(geo) {
 	        prevText: "<<",
 	        nextText: ">>",
 	        nextAtFront: true,
-	        onPageClick: function(pageNumber) { 
+            edges: 1,
+	        onPageClick: function(pageNumber) {
 	        	loadComment(tempItem, pageNumber-1);
 	        	return false;
         	}
