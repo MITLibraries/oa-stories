@@ -14,7 +14,7 @@ var color_q0 = 'rgb(255,255,255)',
 	];
 
 var t = d3.scale.threshold()
-	.domain([1, 16, 268, 4393, 71964, 1178682])
+	.domain([1, 17, 276, 4576, 75951, 1260856])
 	.range(['q0', 'q1', 'q2', 'q3', 'q4', 'q5']);
 
 var commentData = {}
@@ -118,10 +118,10 @@ d3.json('/static/comments.json', function(error, data) {
         .text(function(d,i) {
           var quantizedRange = t.invertExtent('q'+i);
           	if (i == 0) {
-          		return '0 - ' + quantizedRange[1];
+          		return '0';
           	} else {
               return quantizedRange[0] + ' - ' +
-              quantizedRange[1];
+              (quantizedRange[1] - 1);
       		}
         })
         .attr('x', legendOffsetX+(legendBarWidth*1.25))
