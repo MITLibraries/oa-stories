@@ -1,11 +1,11 @@
 {
     "DZA": {
         "num_comments": 0, 
-        "downloads": "10282"
+        "downloads": "11121"
     }, 
     "QAT": {
         "num_comments": 1, 
-        "downloads": "1085", 
+        "downloads": "1214", 
         "kind": [
             "Faculty/researcher"
         ], 
@@ -16,11 +16,11 @@
     }, 
     "EGY": {
         "num_comments": 0, 
-        "downloads": "21329"
+        "downloads": "23116"
     }, 
     "BGD": {
         "num_comments": 1, 
-        "downloads": "6729", 
+        "downloads": "7245", 
         "kind": [
             "Student"
         ], 
@@ -31,7 +31,7 @@
     }, 
     "LIE": {
         "num_comments": 0, 
-        "downloads": "79"
+        "downloads": "85"
     }, 
     "FSM": {
         "num_comments": 0, 
@@ -39,27 +39,27 @@
     }, 
     "SOM": {
         "num_comments": 0, 
-        "downloads": "68"
+        "downloads": "80"
     }, 
     "NAM": {
         "num_comments": 0, 
-        "downloads": "318"
+        "downloads": "339"
     }, 
     "BGR": {
         "num_comments": 0, 
-        "downloads": "4092"
+        "downloads": "4346"
     }, 
     "BOL": {
         "num_comments": 0, 
-        "downloads": "419"
+        "downloads": "461"
     }, 
     "GHA": {
         "num_comments": 0, 
-        "downloads": "2045"
+        "downloads": "2244"
     }, 
     "PAK": {
         "num_comments": 2, 
-        "downloads": "23266", 
+        "downloads": "25435", 
         "kind": [
             "Student", 
             "University faculty/researcher"
@@ -72,38 +72,42 @@
     }, 
     "PAN": {
         "num_comments": 0, 
-        "downloads": "556"
+        "downloads": "569"
     }, 
     "HND": {
         "num_comments": 0, 
-        "downloads": "132"
+        "downloads": "138"
     }, 
     "JOR": {
         "num_comments": 0, 
-        "downloads": "2472"
+        "downloads": "2679"
     }, 
     "LBR": {
         "num_comments": 0, 
-        "downloads": "545"
+        "downloads": "546"
     }, 
     "LBY": {
         "num_comments": 0, 
-        "downloads": "961"
+        "downloads": "1001"
     }, 
     "MYS": {
-        "num_comments": 1, 
-        "downloads": "31096", 
+        "num_comments": 3, 
+        "downloads": "33516", 
         "kind": [
-            "Corporate researcher"
+            "Corporate researcher", 
+            "Univ-Faculty-Researcher", 
+            "Student"
         ], 
         "comments": [
-            "With MIT free access, I can learn more and be a better human being."
+            "With MIT free access, I can learn more and be a better human being.", 
+            "I teach accounting theory and practice as a course for the undergraduate program. I find this article and an earlier article (2008) by the same researchers very useful in my disussions in class. I have also set a final examination question based on this article.", 
+            "I am deeply grateful to have the opportunity to refer to articles made openly available by MIT. I am an undergraduate student studying toward the Bachelor of Analytical Economics in  Multimedia University, Malaysia. The topic of my final year project is related to the article that I am accessing. This article benefits me as it is very well-written, backed by sound facts."
         ], 
         "article": ""
     }, 
     "PRI": {
         "num_comments": 1, 
-        "downloads": "1230", 
+        "downloads": "1327", 
         "kind": [
             "Faculty"
         ], 
@@ -114,51 +118,51 @@
     }, 
     "MYT": {
         "num_comments": 0, 
-        "downloads": "3"
+        "downloads": "4"
     }, 
     "PRK": {
         "num_comments": 0, 
-        "downloads": "172"
+        "downloads": "176"
     }, 
     "TZA": {
         "num_comments": 0, 
-        "downloads": "1490"
+        "downloads": "1576"
     }, 
     "PRT": {
         "num_comments": 0, 
-        "downloads": "12521"
+        "downloads": "13569"
     }, 
     "KHM": {
         "num_comments": 0, 
-        "downloads": "678"
+        "downloads": "723"
     }, 
     "PRY": {
         "num_comments": 0, 
-        "downloads": "210"
+        "downloads": "226"
     }, 
     "HKG": {
         "num_comments": 0, 
-        "downloads": "19659"
+        "downloads": "21435"
     }, 
     "SAU": {
         "num_comments": 0, 
-        "downloads": "8852"
+        "downloads": "9604"
     }, 
     "LBN": {
         "num_comments": 0, 
-        "downloads": "2011"
+        "downloads": "2166"
     }, 
     "SVN": {
         "num_comments": 0, 
-        "downloads": "2789"
+        "downloads": "2974"
     }, 
     "BFA": {
         "num_comments": 0, 
-        "downloads": "147"
+        "downloads": "149"
     }, 
     "SVK": {
         "num_comments": 0, 
-        "downloads": "2515"
+        "downloads": "2691"
     }, 
     "MRT": {
         "num_comments": 0, 
@@ -166,27 +170,27 @@
     }, 
     "CPV": {
         "num_comments": 0, 
-        "downloads": "46"
+        "downloads": "53"
     }, 
     "HRV": {
         "num_comments": 0, 
-        "downloads": "3202"
+        "downloads": "3407"
     }, 
     "CHL": {
         "num_comments": 0, 
-        "downloads": "5431"
+        "downloads": "5889"
     }, 
     "CHN": {
         "num_comments": 0, 
-        "downloads": "598589"
+        "downloads": "892244"
     }, 
     "KNA": {
         "num_comments": 0, 
-        "downloads": "21"
+        "downloads": "25"
     }, 
     "JAM": {
         "num_comments": 1, 
-        "downloads": "723", 
+        "downloads": "758", 
         "kind": [
             "Student"
         ], 
@@ -197,11 +201,11 @@
     }, 
     "GIB": {
         "num_comments": 0, 
-        "downloads": "24"
+        "downloads": "26"
     }, 
     "DJI": {
         "num_comments": 0, 
-        "downloads": "63"
+        "downloads": "66"
     }, 
     "GIN": {
         "num_comments": 0, 
@@ -209,7 +213,7 @@
     }, 
     "FIN": {
         "num_comments": 1, 
-        "downloads": "9364", 
+        "downloads": "10122", 
         "kind": [
             "Student"
         ], 
@@ -220,19 +224,19 @@
     }, 
     "URY": {
         "num_comments": 0, 
-        "downloads": "671"
+        "downloads": "705"
     }, 
     "THA": {
         "num_comments": 0, 
-        "downloads": "18575"
+        "downloads": "19887"
     }, 
     "SYC": {
         "num_comments": 0, 
-        "downloads": "568"
+        "downloads": "571"
     }, 
     "NPL": {
         "num_comments": 1, 
-        "downloads": "1467", 
+        "downloads": "1605", 
         "kind": [
             "Independent researcher"
         ], 
@@ -243,26 +247,28 @@
     }, 
     "MAR": {
         "num_comments": 0, 
-        "downloads": "4059"
+        "downloads": "4369"
     }, 
     "YEM": {
         "num_comments": 0, 
-        "downloads": "680"
+        "downloads": "713"
     }, 
     "PHL": {
-        "num_comments": 1, 
-        "downloads": "16332", 
+        "num_comments": 2, 
+        "downloads": "17423", 
         "kind": [
-            "Researcher"
+            "Researcher", 
+            "Student"
         ], 
         "comments": [
-            "Thank you! This is a huge benefit for a US-trained scientist like me currently working in a 3rd world country."
+            "Thank you! This is a huge benefit for a US-trained scientist like me currently working in a 3rd world country.", 
+            "I am writing a thesis proposal on the interdependence of a group of indigenous peoples with their ancestral domain and with the Philippine eagle present in the domain. I want to analyze this network of relations, found within a community-based conservation arena, through multispecies ethnography. To do this, I need access to literature on multispecies ethnography. Yet I cannot afford to buy this particular article I find relevant to my study. I am glad the MIT Faculty made this article openly available."
         ], 
         "article": ""
     }, 
     "ZAF": {
         "num_comments": 1, 
-        "downloads": "12728", 
+        "downloads": "13538", 
         "kind": [
             "Researcher"
         ], 
@@ -273,23 +279,23 @@
     }, 
     "NIC": {
         "num_comments": 0, 
-        "downloads": "91"
+        "downloads": "104"
     }, 
     "MNE": {
         "num_comments": 0, 
-        "downloads": "138"
+        "downloads": "149"
     }, 
     "VIR": {
         "num_comments": 0, 
-        "downloads": "56"
+        "downloads": "57"
     }, 
     "SYR": {
         "num_comments": 0, 
-        "downloads": "1593"
+        "downloads": "1670"
     }, 
     "MAC": {
         "num_comments": 0, 
-        "downloads": "870"
+        "downloads": "933"
     }, 
     "KIR": {
         "num_comments": 0, 
@@ -297,7 +303,7 @@
     }, 
     "KAZ": {
         "num_comments": 0, 
-        "downloads": "1334"
+        "downloads": "1473"
     }, 
     "COK": {
         "num_comments": 0, 
@@ -309,23 +315,23 @@
     }, 
     "PYF": {
         "num_comments": 0, 
-        "downloads": "31"
+        "downloads": "34"
     }, 
     "COD": {
         "num_comments": 0, 
-        "downloads": "57"
+        "downloads": "62"
     }, 
     "DMA": {
         "num_comments": 0, 
-        "downloads": "17"
+        "downloads": "18"
     }, 
     "BEN": {
         "num_comments": 0, 
-        "downloads": "166"
+        "downloads": "196"
     }, 
     "NGA": {
         "num_comments": 1, 
-        "downloads": "7170", 
+        "downloads": "7754", 
         "kind": [
             "Student"
         ], 
@@ -336,7 +342,7 @@
     }, 
     "BEL": {
         "num_comments": 0, 
-        "downloads": "16689"
+        "downloads": "18004"
     }, 
     "MSR": {
         "num_comments": 0, 
@@ -347,42 +353,50 @@
         "downloads": "53"
     }, 
     "DEU": {
-        "num_comments": 3, 
-        "downloads": "185529", 
+        "num_comments": 6, 
+        "downloads": "205158", 
         "kind": [
             "Faculty researcher", 
             "Student", 
+            "Student", 
+            "Student", 
+            "Other", 
             "Student"
         ], 
         "comments": [
             "I want to provide my students with a good selection of relevant papers on systems biology modeling.... As I am teaching in an international curriculum, my students appreciate very much when I select documents made available open access. In their home countries, open access is the prime route for scientific (scholarly) information. So, thanks to you, colleagues, also in the name of my students. As a scientific advisor to the German National Library of Medicine I am a strong supporter of open access and I am happy to see that MIT is one of the frontrunners in the community effort to make scientific information as freely available as possible.", 
             "Open access is important if we want to generate knowledge that\u2019s not elitist.", 
-            "I am a PhD student at a rather big university in Germany and even here we don't have access to all relevant papers we need to produce relevant and impactful research. If one imagines the situation at smaller universities or universities in less fortunate countries it is clear that the current publishing model is detrimental to the open spirit which underlies rigorous scientific advancement. I sincerely thank the MIT faculty for providing open access to their work and hope that open access will become the norm in scientific publishing. "
+            "I am a PhD student at a rather big university in Germany and even here we don't have access to all relevant papers we need to produce relevant and impactful research. If one imagines the situation at smaller universities or universities in less fortunate countries it is clear that the current publishing model is detrimental to the open spirit which underlies rigorous scientific advancement. I sincerely thank the MIT faculty for providing open access to their work and hope that open access will become the norm in scientific publishing. ", 
+            "It is very helpful to have open acces to a wide variety of papers; this really helps me to give the extra mile in my masters program. Thank You!", 
+            "The article helped me to rethink a test approach to a complex system.\nInstead of specifying to attain a desired goal, we might change (or add) specification to prevent an undesired event.", 
+            "Time wasted on the internet to find the paper everybody is citing is way more useful invested in thinking! Open Access fosters knowledge, research, and science, whereas closed access hinders them."
         ], 
         "article": ""
     }, 
     "GUM": {
         "num_comments": 0, 
-        "downloads": "58"
+        "downloads": "60"
     }, 
     "LKA": {
         "num_comments": 0, 
-        "downloads": "3385"
+        "downloads": "3634"
     }, 
     "FLK": {
         "num_comments": 0, 
         "downloads": "2"
     }, 
     "GBR": {
-        "num_comments": 6, 
-        "downloads": "145909", 
+        "num_comments": 8, 
+        "downloads": "157207", 
         "kind": [
             "Reader", 
             "Student", 
             "Student", 
             "Student advisor/mentor", 
             "Retired mathematician", 
-            "Corporate researcher"
+            "Corporate researcher", 
+            "Student", 
+            "Other"
         ], 
         "comments": [
             "I have a full-time job entirely unrelated to film studies, but occasionally write academic papers for publishing. I cannot gain access to closed articles through my work, I have no student access and am not in a financial position to pay for each individual article on the off chance that it may be of use to me. I rely on open access archives like this to be able to continue with what is essentially a hobby for me, and appreciate very much that these resources enable me to do so. Thank you very much!", 
@@ -390,7 +404,9 @@
             "I am researching for my Masters in Computer Science project and was unable to access a paper through my college. I was able to find it via MIT and it helped me understand the current knowledge of a subject, and extend it in my project.", 
             "Thank you. It so helps when writing dissertations to have research readily available without having to go through endless hoops to get there. Much appreciated.", 
             "Being a retired academic, but still active, I rely on open access material, as I don't now have access to journals, for licencing reasons, and it is far too expensive to purchase copies on-line. There are two reasons for this. Firstly the volume of material that one needs to access is large. Secondly, one cannot be absolutely certain of wishing to study a particular paper in until one has browsed it, as abstracts don't always give a clear enough indication. So one would rapidly incur a substantial expenditure. The DeepDyve facility alleviates this to a degree but it still remains very expensive for an individual. Its also very irritating, having provided services as an author and referee to these scientific journals free of charge not to be able to gain access, to say nothing of the public expenditure that enables the content to be created.", 
-            "I'm researching a PhD (part time) related to Human Factors (HF) in blood transfusion. I have extensive knowledge of transfusion, but very limited knowledge of HF. I have access to medical and scientific journals through my work in transfusion, but little or no access to HF papers for background reading. I have downloaded a couple of MIT 'author's last manuscript' articles which have been invaluable. Many thanks."
+            "I'm researching a PhD (part time) related to Human Factors (HF) in blood transfusion. I have extensive knowledge of transfusion, but very limited knowledge of HF. I have access to medical and scientific journals through my work in transfusion, but little or no access to HF papers for background reading. I have downloaded a couple of MIT 'author's last manuscript' articles which have been invaluable. Many thanks.", 
+            "I am a 17-year-old student in the UK doing an Extended Project Qualification on Mars colonisation. The article I read was referenced in one of the UCL Friday Night Lectures, so I sourced it with the intention of using it as a source in my essay.", 
+            "Workers within academic and commercial organisations now get freer access to publications than they used to, and more government sponsored work is now cost-free, but people like myself, a retired researcher no longer with an organisation's library card, still find it difficult and very costly to get access to material relevant for any continued interest, either recreational or, in my case, attempting to write a book.\nThat is why I found your Open Access platform so valuable when looking for summary papers on voice recognition, and where I came across Campbell et al. 'Forensic speaker recognition' (Sig Proc. Mag. IEEE 26.2(2009))."
         ], 
         "article": ""
     }, 
@@ -400,11 +416,11 @@
     }, 
     "MWI": {
         "num_comments": 0, 
-        "downloads": "187"
+        "downloads": "207"
     }, 
     "ITA": {
         "num_comments": 2, 
-        "downloads": "45114", 
+        "downloads": "48531", 
         "kind": [
             "Doctor and Master's Degree student", 
             "University faculty/researcher"
@@ -417,36 +433,40 @@
     }, 
     "CMR": {
         "num_comments": 0, 
-        "downloads": "938"
+        "downloads": "1004"
     }, 
     "MNP": {
         "num_comments": 0, 
-        "downloads": "10"
+        "downloads": "12"
     }, 
     "LSO": {
         "num_comments": 0, 
-        "downloads": "132"
+        "downloads": "134"
     }, 
     "HUN": {
         "num_comments": 0, 
-        "downloads": "5480"
+        "downloads": "5869"
     }, 
     "TKM": {
         "num_comments": 0, 
-        "downloads": "21"
+        "downloads": "23"
     }, 
     "TTO": {
         "num_comments": 0, 
-        "downloads": "714"
+        "downloads": "804"
     }, 
     "NLD": {
-        "num_comments": 1, 
-        "downloads": "48464", 
+        "num_comments": 3, 
+        "downloads": "51882", 
         "kind": [
-            "Student"
+            "Student", 
+            "Student", 
+            "Other"
         ], 
         "comments": [
-            "Thank you for sharing. Open access is the future!"
+            "Thank you for sharing. Open access is the future!", 
+            "For my honours program at the VU University in Amsterdam (where I study for a bachelor in philosophy), I took a small internship at an institute for philosophy (the Abraham Kuypers centre). I conducted a literature study on the relation between scientific findings and common sense. 'Determinism, Self-Efficacy, and the Phenomenology of Free Will' is a part of that in that it describes the everyday (/common sense) experience of free will.", 
+            "I have a strong interest in research and science but I am not (currently) in academia - accessing scientific publications that are not openly available is simply too expensive for me (as there is no commercial return)."
         ], 
         "article": ""
     }, 
@@ -456,39 +476,39 @@
     }, 
     "BMU": {
         "num_comments": 0, 
-        "downloads": "69"
+        "downloads": "70"
     }, 
     "TCD": {
         "num_comments": 0, 
-        "downloads": "22"
+        "downloads": "25"
     }, 
     "GEO": {
         "num_comments": 0, 
-        "downloads": "641"
+        "downloads": "686"
     }, 
     "ROU": {
         "num_comments": 0, 
-        "downloads": "15943"
+        "downloads": "17692"
     }, 
     "MNG": {
         "num_comments": 0, 
-        "downloads": "345"
+        "downloads": "367"
     }, 
     "MHL": {
         "num_comments": 0, 
-        "downloads": "2"
+        "downloads": "3"
     }, 
     "MLI": {
         "num_comments": 0, 
-        "downloads": "26"
+        "downloads": "28"
     }, 
     "BLZ": {
         "num_comments": 0, 
-        "downloads": "73"
+        "downloads": "82"
     }, 
     "AFG": {
         "num_comments": 0, 
-        "downloads": "204"
+        "downloads": "250"
     }, 
     "BDI": {
         "num_comments": 0, 
@@ -496,11 +516,11 @@
     }, 
     "VGB": {
         "num_comments": 0, 
-        "downloads": "14"
+        "downloads": "15"
     }, 
     "BLR": {
         "num_comments": 0, 
-        "downloads": "2406"
+        "downloads": "2745"
     }, 
     "BLM": {
         "num_comments": 0, 
@@ -512,78 +532,87 @@
     }, 
     "ALA": {
         "num_comments": 0, 
-        "downloads": "10"
+        "downloads": "11"
     }, 
     "GRC": {
-        "num_comments": 0, 
-        "downloads": "13915"
+        "num_comments": 1, 
+        "downloads": "14912", 
+        "kind": [
+            "Student"
+        ], 
+        "comments": [
+            "I am a 2nd year post graduate student on nanoscience in Greece, in parallel with my psychiatric residence training. MIT Open Access articles and MIT open courses have been most important for me in terms of basic education on science and in terms of scientific writing guidelines.  \n\nIn Greece, we have to overcome the major problem of inadequate funding for public libraries, which keeps us about a year back compared to the rest of the developed countries due to the financial crisis that harasses our society and its institutions and academic facilities. So, any kind of open access is of paramount value for us, as we struggle to retain the very high scientific standards that have been reached by many of our labs and courses the last 20 years. \n\nI would like to thank you for any kind of open access document that you provide for the global scientific community. Also, I would like to ask for any kind of help for the Greek scientific community in terms of co-operation, local projects and scientific teaching. \n"
+        ], 
+        "article": "Emerging Applications of Carbon Nanotubes"
     }, 
     "VAT": {
         "num_comments": 0, 
-        "downloads": "4"
+        "downloads": "5"
     }, 
     "GRL": {
         "num_comments": 0, 
-        "downloads": "9"
+        "downloads": "10"
     }, 
     "AND": {
         "num_comments": 0, 
-        "downloads": "15"
+        "downloads": "17"
     }, 
     "RWA": {
         "num_comments": 0, 
-        "downloads": "386"
+        "downloads": "432"
     }, 
     "TJK": {
         "num_comments": 0, 
-        "downloads": "46"
+        "downloads": "62"
     }, 
     "HTI": {
         "num_comments": 0, 
-        "downloads": "70"
+        "downloads": "71"
     }, 
     "PSE": {
         "num_comments": 0, 
-        "downloads": "1280"
+        "downloads": "1451"
     }, 
     "LCA": {
         "num_comments": 0, 
-        "downloads": "34"
+        "downloads": "37"
     }, 
     "IND": {
-        "num_comments": 3, 
-        "downloads": "271100", 
+        "num_comments": 4, 
+        "downloads": "286989", 
         "kind": [
             "Student", 
             "Autodidact", 
-            "University faculty/researcher"
+            "University faculty/researcher", 
+            "Corp-researcher"
         ], 
         "comments": [
             "Thanks a lot. I live in India and it's really disheartening when a site asks for money to display their research work. This initiative will\u2026 accelerate research in the emerging nations.", 
             "This [access] changes everything. We live in a time when bureaucracy is the impediment to knowledge, technology, and equity more than ever before.", 
-            "I am Physical Therapist from India and I was searching for some ADL related articles for neurological conditions and I happened to come across this article which really caught my eye regarding wearable sensors and monitoring of movements of Parkinsons patient."
+            "I am Physical Therapist from India and I was searching for some ADL related articles for neurological conditions and I happened to come across this article which really caught my eye regarding wearable sensors and monitoring of movements of Parkinsons patient.", 
+            "I'm a programme officer at The Asia Foundation, working at its New Delhi office. We're currently working on the inception of a Civil Society Fund of around  $3.3 million, which will fund around 20 CSOs in the Ganges, Indus, and Brahmaputra basins to improve transboundary water governance over the next two years. This piece is quite critical in proving the connection between civil society intervention and better water governance. TAF does not have institutional access to this particular journal, and finding it openly available is immensely helpful."
         ], 
         "article": ""
     }, 
     "IRL": {
         "num_comments": 0, 
-        "downloads": "11065"
+        "downloads": "11864"
     }, 
     "BTN": {
         "num_comments": 0, 
-        "downloads": "78"
+        "downloads": "84"
     }, 
     "VCT": {
         "num_comments": 0, 
-        "downloads": "33"
+        "downloads": "34"
     }, 
     "VNM": {
         "num_comments": 0, 
-        "downloads": "23639"
+        "downloads": "26072"
     }, 
     "NOR": {
         "num_comments": 2, 
-        "downloads": "7521", 
+        "downloads": "8408", 
         "kind": [
             "Student", 
             "Corporate researcher"
@@ -596,7 +625,7 @@
     }, 
     "CZE": {
         "num_comments": 2, 
-        "downloads": "8556", 
+        "downloads": "9053", 
         "kind": [
             "Student", 
             "University faculty/researcher"
@@ -609,54 +638,62 @@
     }, 
     "ATG": {
         "num_comments": 0, 
-        "downloads": "33"
+        "downloads": "36"
     }, 
     "FJI": {
         "num_comments": 0, 
-        "downloads": "218"
+        "downloads": "229"
     }, 
     "MLT": {
         "num_comments": 0, 
-        "downloads": "809"
+        "downloads": "857"
     }, 
     "MUS": {
         "num_comments": 0, 
-        "downloads": "824"
+        "downloads": "901"
     }, 
     "DOM": {
         "num_comments": 0, 
-        "downloads": "333"
+        "downloads": "346"
     }, 
     "LUX": {
         "num_comments": 0, 
-        "downloads": "2713"
+        "downloads": "2799"
     }, 
     "ISR": {
         "num_comments": 0, 
-        "downloads": "21918"
+        "downloads": "23323"
+    }, 
+    "ABW": {
+        "num_comments": 0, 
+        "downloads": "38"
     }, 
     "SMR": {
         "num_comments": 0, 
-        "downloads": "7"
+        "downloads": "10"
     }, 
     "PER": {
-        "num_comments": 1, 
-        "downloads": "2822", 
+        "num_comments": 3, 
+        "downloads": "3075", 
         "kind": [
-            "Reader"
+            "Reader", 
+            "Other", 
+            "Student"
         ], 
         "comments": [
-            "Thanks for your cooperation. It is of a great help in our research on air pollution in Peru."
+            "Thanks for your cooperation. It is of a great help in our research on air pollution in Peru.", 
+            "I'm about to publish a book... It presents a  psychotherapeutic style developed over decades, based on a viscerally guided communicative path, which we've also successfully used in cross-cultural research and community health projects. \nThe case material is eloquent but I wanted to explore whether the intuitive feel of some underlying dynamics in this transformative process matched with any scientific research. Most of my intuitions took me to thermodynamics, but I kept finding material that limited this to other fields. \nInsisting on relevant research  for hypothetical considerations, I have just found, Collell, Guillem, and Jordi Fauquet's 2015 paper.  \nThank you for making it available, I'm thrilled!", 
+            "I'm an MBA student from Lima, Peru, and I am preparing a brief case about joint ventures facts to be considered when thinking on China. As this topic is huge and includes several considerations from many disciplines, I've tried to stick to the most general aspects to further make recommendations and suggest a deeper study for each specific case."
         ], 
         "article": ""
     }, 
     "REU": {
         "num_comments": 0, 
-        "downloads": "49"
+        "downloads": "62"
     }, 
     "IDN": {
         "num_comments": 0, 
-        "downloads": "23503"
+        "downloads": "25435"
     }, 
     "VUT": {
         "num_comments": 0, 
@@ -667,36 +704,43 @@
         "downloads": "9"
     }, 
     "CRI": {
-        "num_comments": 0, 
-        "downloads": "745"
+        "num_comments": 1, 
+        "downloads": "789", 
+        "kind": [
+            "Other"
+        ], 
+        "comments": [
+            "I work in IMAS (Instituto Mixto de Ayuda Social) in Costa Rica, with a multifacated poverty alleviation strategy. We are working in de ToR for an evaluation design, and the article \"A multifaceted program causes lasting progress for the very poor: Evidence from six countries\" has very relevant information for us. I was looking for the article, and was VERY relieved to know it is open sourced.  THANK YOU!!!"
+        ], 
+        "article": "A multifaceted program causes lasting progress for the very poor: Evidence from six countries"
     }, 
     "SUR": {
         "num_comments": 0, 
-        "downloads": "95"
+        "downloads": "98"
     }, 
     "COG": {
         "num_comments": 0, 
-        "downloads": "11"
+        "downloads": "13"
     }, 
     "ISL": {
         "num_comments": 0, 
-        "downloads": "538"
+        "downloads": "582"
     }, 
     "GLP": {
         "num_comments": 0, 
-        "downloads": "27"
+        "downloads": "31"
     }, 
     "ETH": {
         "num_comments": 0, 
-        "downloads": "4645"
+        "downloads": "5141"
     }, 
     "NER": {
         "num_comments": 0, 
-        "downloads": "42"
+        "downloads": "50"
     }, 
     "COL": {
         "num_comments": 0, 
-        "downloads": "11903"
+        "downloads": "12363"
     }, 
     "GUF": {
         "num_comments": 0, 
@@ -704,35 +748,35 @@
     }, 
     "TLS": {
         "num_comments": 0, 
-        "downloads": "19"
+        "downloads": "20"
     }, 
     "BWA": {
         "num_comments": 0, 
-        "downloads": "484"
+        "downloads": "523"
     }, 
     "MDA": {
         "num_comments": 0, 
-        "downloads": "1039"
+        "downloads": "1125"
     }, 
     "GGY": {
         "num_comments": 0, 
-        "downloads": "26"
+        "downloads": "27"
     }, 
     "MDG": {
         "num_comments": 0, 
-        "downloads": "153"
+        "downloads": "190"
     }, 
     "ECU": {
         "num_comments": 0, 
-        "downloads": "1406"
+        "downloads": "1526"
     }, 
     "SEN": {
         "num_comments": 0, 
-        "downloads": "397"
+        "downloads": "421"
     }, 
     "MDV": {
         "num_comments": 0, 
-        "downloads": "127"
+        "downloads": "148"
     }, 
     "ASM": {
         "num_comments": 0, 
@@ -744,11 +788,11 @@
     }, 
     "SRB": {
         "num_comments": 0, 
-        "downloads": "4020"
+        "downloads": "4293"
     }, 
     "FRA": {
         "num_comments": 1, 
-        "downloads": "251648", 
+        "downloads": "264242", 
         "kind": [
             "University faculty researcher"
         ], 
@@ -759,31 +803,38 @@
     }, 
     "LTU": {
         "num_comments": 0, 
-        "downloads": "3421"
+        "downloads": "3685"
     }, 
     "MOZ": {
         "num_comments": 0, 
-        "downloads": "92"
+        "downloads": "100"
     }, 
     "ZMB": {
         "num_comments": 0, 
-        "downloads": "495"
+        "downloads": "524"
     }, 
     "SWE": {
-        "num_comments": 0, 
-        "downloads": "24340"
+        "num_comments": 1, 
+        "downloads": "25987", 
+        "kind": [
+            "Student"
+        ], 
+        "comments": [
+            "I'm a Swedish law student studying the various control mechanisms or lack thereof that individuals have access to when their information has been made available to a company. This article has helped me illustrate why the legislation on this area today is insufficient when it comes to battling the issues that arise in information-intensive industries."
+        ], 
+        "article": "Unique in the Shopping Mall: On the Reidentifiability of Credit Card Metadata"
     }, 
     "JEY": {
         "num_comments": 0, 
-        "downloads": "30"
+        "downloads": "31"
     }, 
     "FRO": {
         "num_comments": 0, 
-        "downloads": "17"
+        "downloads": "20"
     }, 
     "GTM": {
         "num_comments": 1, 
-        "downloads": "326", 
+        "downloads": "350", 
         "kind": [
             "Director at a research institute"
         ], 
@@ -793,45 +844,63 @@
         "article": "Tropical Cyclones and Climate Change by Knutson, Thomas R. et al."
     }, 
     "DNK": {
-        "num_comments": 0, 
-        "downloads": "10101"
+        "num_comments": 1, 
+        "downloads": "10965", 
+        "kind": [
+            "Univ-faculty-researcher"
+        ], 
+        "comments": [
+            "I am planning to carry out research on the legal system's responses to political violence in Kenya in the context of ethnicized politics, neopatrimonial governance, and legal pluralism."
+        ], 
+        "article": "Irregular Armed Forces, Shifting Patterns of Commitment, and Fragmented Sovereignty in the Developing World1\n\nDiane E. Davis\n"
     }, 
     "ZWE": {
         "num_comments": 0, 
-        "downloads": "1316"
+        "downloads": "1426"
     }, 
     "MAF": {
         "num_comments": 0, 
         "downloads": "1"
     }, 
     "AUS": {
-        "num_comments": 2, 
-        "downloads": "47202", 
+        "num_comments": 4, 
+        "downloads": "50482", 
         "kind": [
             "Private researcher", 
-            "University faculty/researcher"
+            "University faculty/researcher", 
+            "Other", 
+            "Other"
         ], 
         "comments": [
             "[I am] a disabled engineer researching gravity and inertia\u2026. My research is hampered by one thing alone: paywalls.", 
-            "There is no story, but just a thanks. I would wish all education and all material free in this world. And by letting the greater public access your articles openly you promote education in the world. Thanks."
+            "There is no story, but just a thanks. I would wish all education and all material free in this world. And by letting the greater public access your articles openly you promote education in the world. Thanks.", 
+            "Thank you for access to your papers. My research concerns the neural substrates of memory as the common pathway in post traumatic stress disorder (see for example Elzinger and Bremmer, 2002).\n\nMotivation: I suffer PTSD as a result of service in Vietnam (1970-71); current medical diagnosis 'complex', analysis: irresistable!\n", 
+            "I'm doing some experiments at home with producing drinkable water using solar panels and peltier plates. The paper \"Condensation on Hydrophilic, Hydrophobic, Nanostructured Superhydrophobic and Oil-Infused Surfaces\" by Miljkovic Nenad et al gave me some good ideas for improving the condensation rates."
         ], 
         "article": ""
     }, 
     "AUT": {
-        "num_comments": 0, 
-        "downloads": "10933"
+        "num_comments": 1, 
+        "downloads": "11907", 
+        "kind": [
+            "Other"
+        ], 
+        "comments": [
+            "I am preparing for a job interview for a role as a campaign manager for online and mobile platforms at a media company in Austria. So I was looking for articles and studies to be prepared. "
+        ], 
+        "article": "Online Display Advertising: Targeting and Obstrusiveness"
     }, 
     "VEN": {
         "num_comments": 0, 
-        "downloads": "2825"
+        "downloads": "2941"
     }, 
     "PLW": {
         "num_comments": 0, 
-        "downloads": "9"
+        "downloads": "10"
     }, 
     "KEN": {
         "num_comments": 1, 
-        "downloads": "5283", 
+        "downloads": "5766", 
         "kind": [
             "Potential student"
         ], 
@@ -842,7 +911,7 @@
     }, 
     "LAO": {
         "num_comments": 0, 
-        "downloads": "101"
+        "downloads": "118"
     }, 
     "WSM": {
         "num_comments": 0, 
@@ -850,7 +919,7 @@
     }, 
     "TUR": {
         "num_comments": 1, 
-        "downloads": "27467", 
+        "downloads": "29762", 
         "kind": [
             "Student"
         ], 
@@ -861,11 +930,11 @@
     }, 
     "ALB": {
         "num_comments": 0, 
-        "downloads": "857"
+        "downloads": "925"
     }, 
     "OMN": {
         "num_comments": 0, 
-        "downloads": "950"
+        "downloads": "1051"
     }, 
     "TUV": {
         "num_comments": 0, 
@@ -873,27 +942,27 @@
     }, 
     "MMR": {
         "num_comments": 0, 
-        "downloads": "1506"
+        "downloads": "1648"
     }, 
     "BRN": {
         "num_comments": 0, 
-        "downloads": "311"
+        "downloads": "327"
     }, 
     "TUN": {
         "num_comments": 0, 
-        "downloads": "5214"
+        "downloads": "5687"
     }, 
     "RUS": {
         "num_comments": 0, 
-        "downloads": "67227"
+        "downloads": "79216"
     }, 
     "Unknown Country": {
         "num_comments": 0, 
-        "downloads": "20984"
+        "downloads": "22616"
     }, 
     "MEX": {
         "num_comments": 2, 
-        "downloads": "14175", 
+        "downloads": "15192", 
         "kind": [
             "Student", 
             "Professor of basic physics and electrical engineering"
@@ -905,33 +974,35 @@
         "article": ""
     }, 
     "BRA": {
-        "num_comments": 2, 
-        "downloads": "27465", 
+        "num_comments": 3, 
+        "downloads": "29566", 
         "kind": [
             "Undergraduate student ", 
-            "Student"
+            "Student", 
+            "Univ-faculty-researcher"
         ], 
         "comments": [
             "I am most thankful to MIT for freely sharing so many articles, for this attitude not only helps scientific knowledge to be disseminated across the globe, but it also inspire[s] those students who, like myself, do not have a chance of paying for many of these publications. MIT is not only sharing knowledge, it is helping those in need on the pursuing of their dreams.", 
-            "I\u2019m currently applying for a PhD position and this open access article is essential for my proposal."
+            "I\u2019m currently applying for a PhD position and this open access article is essential for my proposal.", 
+            "very important. I'm studing the impact of surveillance actions to avoid work accidents in Brazil."
         ], 
         "article": ""
     }, 
     "CIV": {
         "num_comments": 0, 
-        "downloads": "338"
+        "downloads": "354"
     }, 
     "CUW": {
         "num_comments": 0, 
-        "downloads": "61"
+        "downloads": "70"
     }, 
     "MKD": {
         "num_comments": 0, 
-        "downloads": "841"
+        "downloads": "889"
     }, 
     "USA": {
-        "num_comments": 46, 
-        "downloads": "1260855", 
+        "num_comments": 67, 
+        "downloads": "1352380", 
         "kind": [
             "Researcher", 
             "Retired professor, researcher ", 
@@ -978,7 +1049,28 @@
             "Management consultant", 
             "Patient", 
             "Personal interest in aviation and the X-15", 
-            "University faculty researcher"
+            "University faculty researcher", 
+            "Other", 
+            "Other", 
+            "Other", 
+            "Univ-Faculty-Researcher", 
+            "Other", 
+            "Other", 
+            "Other", 
+            "Corp-researcher", 
+            "Univ-faculty-researcher", 
+            "Student", 
+            "Other", 
+            "Student", 
+            "Student", 
+            "Other", 
+            "Other", 
+            "Other", 
+            "Student", 
+            "Student", 
+            "Other", 
+            "", 
+            ""
         ], 
         "comments": [
             "This helps me a lot in getting back to intense research now, when the kids have reached school age. Thank you very much!", 
@@ -1026,25 +1118,42 @@
             "I am a self-employed management consultant focused mainly in strategy and market analysis for tech companies. My typical client is a manufacturing and design firm making electronic components. A typical project would be to help the client form an assessment of the opportunity afforded by entry into a new vertical market segment. I have been following developments in silicon photonics for several years. My purpose in doing so is I believe this emerging technology could be of high interest to future clients", 
             "I'm indeed very grateful for the availability of this article. When I was 7 I was almost killed in the playground bombing at Poe Elementary School in Houston. My TBI is classified as moderate. I have been disabled all of my adult life. Recently I read about low level laser therapy for TBI in Dr Norman Doidge's latest book and was fascinated by its apparent possibilities.", 
             "Even as a non-technical reader, I gained additional insights into the workings of the MH-96 system to round out my personal interest in the development and testing of the X-15.", 
-            "I am doing research for a government standard RF waveform supporting transport of ISR video. The article on the MIT open access was a huge help in helping understand this research area."
+            "I am doing research for a government standard RF waveform supporting transport of ISR video. The article on the MIT open access was a huge help in helping understand this research area.", 
+            "I am a female CTO and startup founder in Silicon Valley, dealing with the mythology of meritocracy every day. Great to have data about it!", 
+            "I am a \"semi-retired\" physicist who is attempting to keep up with the literature in the wild west (Idaho Falls, Idaho). It is very difficult to obtain original journal access and inter-library access is very slow (usually).", 
+            "My daughter is at UCSB and considering Anthropology as a major, combined with Zoology. I'm sending her this article. Thanks!", 
+            "I am a plastic surgeon with a primary interest in hand and nerve injuries.  I am a woman and in academics.  I have ended up on several committees in national societies partially because of my gender: Diversity (Am Soc for Surg of the Hand) and Women in Plastic Surgery Steering Committee (Am Soc of Plastic Surg).  I'm on other committees also, probably, and hopefully only initially, because they needed female representation. Several of my colleagues and I have been asked to steer a series of articles on Women in Plastic Surgery. This article is very helpful as it hits many of the topics germane to women in my specialty. I'm especially amused/dismayed/frustrated/validated by women who approach me, shocked (shocked!) that discrimination and bias are happening to them, too. They suddenly realize that women who notice and mention it aren't necessarily hypersensitive fragile flowers.", 
+            "I am a 72-year-old Parkinson's Disease patient seeking to improve a novel technique, designed to predict and asses the consequences of a given Rx set to the subsequent patient experience. No such tool exists, to my knowledge. The software is running, and I seek wearable sensor technology to produce data to validate and improve the model.", 
+            "My name is Andrea. I recently graduated from college with a B.S. in psychology. My passion is to do research, and I use MIT open access to help me continue my research while I am not in graduate school. \nAfter graduating from my undergraduate college I lost access to the papers I need to continue my independent research. I am so grateful that something like this exists for people like me. Without it, papers just cost too much to access. ", 
+            "I have neurological Lyme disease and was very encouraged to find new information on synthetic phages being used to target specific gene networks, and I'm wondering if it's possible to engineer a phage to be specific to Borrelia in this way (there is no natural phage known).", 
+            "I read OA articles all the time when researching new ideas.\nToday I read the thesis of a recent MIT PhD who I had met professionally, because I wanted to know more about his company.  I think OA has helped me and him by making his work easy to find and access.\nBut the bulk of the research I do for work includes papers in OA.  I probably have 20-30 downloaded to read at any one time -- and I'm not a hard-core researcher.  OA makes this knowledge readily available to the non-academic, technical, and even semi-technical audience.\nThe value for me is twofold: some ideas are directly implementable from OA papers -- that's a huge win, since we don't have to reinvent the wheel.  The other value is it gives us context, so we know whether we're onto something, reinventing wheels, out on the bleeding edge, or way behind the times.  It's saved me more time and money than I can even imagine, by preventing us from running down rabbit holes.\nSo thank you.  It's a great service to me personally, and definitely the world at large.", 
+            "Thanks for making this article available. I'm working on an ethnography about women and hip hop in Detroit and am starting to explore the relationship between Detroit and the global south, so I think it will be helpful.", 
+            "I am a Doctoral student trying to finish my proposal. Having free access to an article of this quality through open source is excellent. This article fills a hole in my research and will help complete my proposal. More authors should allow this type of access.  ", 
+            "I am interested in this particular study because I benefited greatly from the GI Bill as did my brother.  Neither of our parents had a college education, but we were able to get a bachelors degree and, later, a masters of science for me, an MBA for my brother.  The GI bill changed my life.", 
+            "I am a grad student in the MS-Systems Science program at Portland State University and enrolled in a year-long series of classes on Ecosystems Services for Urbanizing Regions. Through online access to articles on MIT libraries I enjoy benefits of quality cutting-edge academic information that contributes to my learning in class.", 
+            "My name is Nikita Polyakov and I am current a 10th grade HS student from the Seattle area. I am currently trying to find a way of diagnosing muscle injuries in swimmers. In the past few months I have had back muscle injury that leads me to think about this project of how to help other swimmers to detect possible injuries. To begin with, together with my dad, we have created a small electronic device that measures electric resistance of the human muscles. We tried to apply DC current and failed. But, after we switched to AC current (500Hz to 30KHz), we saw results similar to what the authors described in this article. I was very excited about results described in this article so want to get in touch with this people and tell about my experience. Also, since I am thinking about my future path, I like to see what kind of things MIT does. Also, my teacher suggested I choose this project as my HS Senior project. I would appreciate if you put me in contact with the authors or with someone who I can talk to\n", 
+            "This is truly *wonderful*!! I am an independent researcher doing paid work and also volunteer work at community labs with people of all ages including many high school students. As such, I have only limited \"free\" access to papers behind paywalls. At $ 30-40 apiece it is impractical and expensive to buy papers based on nothing but an abstract. Further, it would cost thousands to subscribe to all the necessary journals.\n\nOpen Access is what all of us need to research, discover and invent so that humanity may achieve a better future. Part of my work is to inspire young students. More than ever before it is important to enable people outside of academia and large institutions to access cutting edge research. The problems facing us as a society and as a species are multidisciplinary. The more people we have working on them, the better.\n\nYes, someone must bear the publication and review costs. This is a proper use of grants and research funds, most of which come directly or indirectly from the public, including the financial help that parents provide to both undergrad and grad students:-). This is a strong argument that the results should be publicly available and not behind pricey paywalls. In some instances, patent and licensing fees can also compensate, but only if the research is used and sold. The best way to realize this is share it up front and encourage people to apply it in beneficial ways.", 
+            "On September 14, 2015, our species developed new eyes--a new way to experience the world. My thanks to the faculty at MIT for making the details of this development available to all of us. Personally, 40 years ago, I studied GR at CCNY. For a brief time I even studied under Michio Kaku. I loved the elegance of the wave solution to the field equations. However, I deserted my first love to attend the demands of biological necessity. But, I am thankful that I have lived long enough to see the waves I imaged ripple through observational reality. Reading this paper erases 40 years (for a few minutes). My hope is that through this paper, some young Galileo will defer the biological necessity to baste in this new light.\n", 
+            "US Marine who designs, implements, and maintains DOD deployed communications architectures. Plan on using article as a thought provoking piece in developing communication leaders. ", 
+            "I am a university student who uses scholarly articles on a regular basis. Open access to these sources is incredibly useful and helpful! Once I graduate, I will lose access to many journals that I can currently access through my university's library. Open source material will be even more crucial for me when that happens.", 
+            "I was asked to give a talk about \"hurdles our female students face in the classroom\" to a group of community and technical colleges faculty because I'm the President of our Women in Computing Science club.  They wanted me to just solicit feedback from our club members and report back on what they said, but I had more I wanted to cover.  I'm giving a comprehensive talk that includes feedback from our students but also covers things like Stereotype Threat and Unconscious Bias.  Having the full text of your research available has been very helpful to me.  I'm used to talking about this with friends who don't believe discrimination or bias exists, so I'm making sure all of my points are backed by peer reviewed research.  Thank you.", 
+            "I was trying to learn about how you might be able to write custom software to control the WiFi or NFC interface of a consumer smartphone or home computer in order to read the RFID microchips embedded in cats and dogs to identify them, when I found this MIT article about how to read RFID signals using a software-define radio.", 
+            "When I heard of the LIGO gravity wave detection, all I could find were these general articles, but no real details of the detection. Only through the open access I got from the notification I got from MIT was I able to quickly get the article and share it with my dissident science group which has a weekly conference call. Our 2-hour discussion today 2/15/16 centered around that article and it was very helpful for everyone to have access to the complete article instead of just overviews from other mainstream articles. It is frustrating that when one of our participants wanted to get the references for 97.98 and 99, I told him he could do that through the internet, but at a cost of $25 or he would have to visit a public university (which he could not because of disability). This type of government publicly funded research should be freely accessible and not be behind an absurd  $25-$40 per article barrier. Thank you for doing the right thing and making this very significant discovery as a freely available article.\n", 
+            "I want to express my regards for making the articles openly available. As an undergraduate researcher, I have to search through multiple libraries and online resources to be able to access required information for my research. This article, which I was able to download quite easily though the website, was very helpful in creating my literature review of Shared Autonomous Vehicles. I could not have been able to comprehend and cite the results of this study without the access to the article, and I am grateful for providing me the same."
         ], 
         "article": ""
     }, 
     "AGO": {
         "num_comments": 0, 
-        "downloads": "60"
-    }, 
-    "SSD": {
-        "num_comments": 0, 
-        "downloads": "26"
+        "downloads": "71"
     }, 
     "TWN": {
         "num_comments": 0, 
-        "downloads": "51005"
+        "downloads": "54809"
     }, 
     "UKR": {
         "num_comments": 0, 
-        "downloads": "101034"
+        "downloads": "103718"
     }, 
     "GNB": {
         "num_comments": 0, 
@@ -1052,34 +1161,36 @@
     }, 
     "SWZ": {
         "num_comments": 0, 
-        "downloads": "86"
+        "downloads": "90"
     }, 
     "TON": {
         "num_comments": 0, 
         "downloads": "5"
     }, 
     "CAN": {
-        "num_comments": 3, 
-        "downloads": "97091", 
+        "num_comments": 4, 
+        "downloads": "107551", 
         "kind": [
             "University researcher", 
             "Retired geological engineer", 
-            "Student"
+            "Student", 
+            "Corp-researcher"
         ], 
         "comments": [
             "Science is about the progress of human knowledge. It should not be about paying a publishing company, especially now that computer storage and networking is, incrementally, of infinitesimal cost.", 
             "US institutions traditionally have open access policies that attest to a vigorous academic climate \u2013 much to be envied.", 
-            "Thank you very much! This will be really helpful for my master\u2019s thesis work! I love seeing open access articles. Research needs to be shared, otherwise how are we expecting the knowledge to spread and for our ideas to grow? This is a wonderful idea, and I hope that I will see more groups doing this in the future!"
+            "Thank you very much! This will be really helpful for my master\u2019s thesis work! I love seeing open access articles. Research needs to be shared, otherwise how are we expecting the knowledge to spread and for our ideas to grow? This is a wonderful idea, and I hope that I will see more groups doing this in the future!", 
+            "Working in IT research and advisory, this repository helps us write based on peer-reviewed research. It's great! Fund it more!!"
         ], 
         "article": ""
     }, 
     "GUY": {
         "num_comments": 0, 
-        "downloads": "88"
+        "downloads": "97"
     }, 
     "KOR": {
         "num_comments": 0, 
-        "downloads": "89878"
+        "downloads": "96763"
     }, 
     "AIA": {
         "num_comments": 0, 
@@ -1087,30 +1198,32 @@
     }, 
     "BRB": {
         "num_comments": 0, 
-        "downloads": "183"
+        "downloads": "187"
     }, 
     "CHE": {
-        "num_comments": 1, 
-        "downloads": "26409", 
+        "num_comments": 2, 
+        "downloads": "28583", 
         "kind": [
-            "Retired"
+            "Retired", 
+            "Other"
         ], 
         "comments": [
-            "As a layman to climate sciences... not working anymore in academic fields (aka retired), open access is great help to stay informed first hand. Thank you all."
+            "As a layman to climate sciences... not working anymore in academic fields (aka retired), open access is great help to stay informed first hand. Thank you all.", 
+            "I'm working on an essay to apply for a master programme. If I succeed, it will be in part due to the information in the article you made available. Thank you."
         ], 
         "article": ""
     }, 
     "CYP": {
         "num_comments": 0, 
-        "downloads": "1312"
+        "downloads": "1418"
     }, 
     "BIH": {
         "num_comments": 0, 
-        "downloads": "846"
+        "downloads": "907"
     }, 
     "SGP": {
         "num_comments": 1, 
-        "downloads": "33676", 
+        "downloads": "36149", 
         "kind": [
             "Technical professional"
         ], 
@@ -1121,26 +1234,28 @@
     }, 
     "AZE": {
         "num_comments": 0, 
-        "downloads": "417"
+        "downloads": "462"
     }, 
     "UZB": {
         "num_comments": 0, 
-        "downloads": "311"
+        "downloads": "360"
     }, 
     "ERI": {
-        "num_comments": 1, 
-        "downloads": "32", 
+        "num_comments": 2, 
+        "downloads": "39", 
         "kind": [
-            "Member of the public"
+            "Member of the public", 
+            ""
         ], 
         "comments": [
-            "Thanks for making articles freely available. This helps all of us better understand our world and learn how to make better decisions in our daily lives through greater access to information."
+            "Thanks for making articles freely available. This helps all of us better understand our world and learn how to make better decisions in our daily lives through greater access to information.", 
+            "I am an avid learner and a working professional with a busy family life.  Having access to MIT articles is a wonderful way for me to keep up with thought leaders and developments.  Also I am in the process of deciding what next course of study most interests me, and reading faculty publications is a wonderful way for me to look at different topics and ways of thinking.  Thank you for sharing your knowledge!"
         ], 
         "article": ""
     }, 
     "POL": {
         "num_comments": 1, 
-        "downloads": "25433", 
+        "downloads": "27040", 
         "kind": [
             "Researcher"
         ], 
@@ -1151,23 +1266,23 @@
     }, 
     "KWT": {
         "num_comments": 0, 
-        "downloads": "889"
+        "downloads": "940"
     }, 
     "GMB": {
         "num_comments": 0, 
-        "downloads": "43"
+        "downloads": "50"
     }, 
     "GAB": {
         "num_comments": 0, 
-        "downloads": "103"
+        "downloads": "105"
     }, 
     "CYM": {
         "num_comments": 0, 
-        "downloads": "14"
+        "downloads": "18"
     }, 
     "EST": {
         "num_comments": 2, 
-        "downloads": "2367", 
+        "downloads": "2528", 
         "kind": [
             "Faculty", 
             "Researcher"
@@ -1180,7 +1295,7 @@
     }, 
     "ESP": {
         "num_comments": 1, 
-        "downloads": "30747", 
+        "downloads": "33148", 
         "kind": [
             "Researcher"
         ], 
@@ -1191,39 +1306,39 @@
     }, 
     "IRQ": {
         "num_comments": 0, 
-        "downloads": "6582"
+        "downloads": "7148"
     }, 
     "SLV": {
         "num_comments": 0, 
-        "downloads": "185"
+        "downloads": "197"
     }, 
     "MTQ": {
         "num_comments": 0, 
-        "downloads": "33"
+        "downloads": "34"
     }, 
     "LVA": {
         "num_comments": 0, 
-        "downloads": "2387"
+        "downloads": "2491"
     }, 
     "IRN": {
         "num_comments": 0, 
-        "downloads": "121990"
+        "downloads": "131474"
     }, 
-    "ABW": {
+    "SSD": {
         "num_comments": 0, 
-        "downloads": "38"
+        "downloads": "39"
     }, 
     "SLE": {
         "num_comments": 0, 
-        "downloads": "46"
+        "downloads": "50"
     }, 
     "IMN": {
         "num_comments": 0, 
-        "downloads": "36"
+        "downloads": "38"
     }, 
-    "BHS": {
+    "SDN": {
         "num_comments": 0, 
-        "downloads": "3954"
+        "downloads": "1378"
     }, 
     "SLB": {
         "num_comments": 0, 
@@ -1231,7 +1346,7 @@
     }, 
     "NZL": {
         "num_comments": 1, 
-        "downloads": "6709", 
+        "downloads": "7109", 
         "kind": [
             "University faculty/researcher"
         ], 
@@ -1242,19 +1357,19 @@
     }, 
     "MCO": {
         "num_comments": 0, 
-        "downloads": "51"
+        "downloads": "56"
     }, 
     "JPN": {
         "num_comments": 0, 
-        "downloads": "81274"
+        "downloads": "88133"
     }, 
     "KGZ": {
         "num_comments": 0, 
-        "downloads": "134"
+        "downloads": "136"
     }, 
     "ARM": {
         "num_comments": 0, 
-        "downloads": "910"
+        "downloads": "1012"
     }, 
     "NCL": {
         "num_comments": 0, 
@@ -1262,30 +1377,34 @@
     }, 
     "ARE": {
         "num_comments": 0, 
-        "downloads": "5117"
+        "downloads": "5582"
     }, 
     "ARG": {
-        "num_comments": 1, 
-        "downloads": "6369", 
+        "num_comments": 3, 
+        "downloads": "6753", 
         "kind": [
-            "Economist"
+            "Economist", 
+            "Univ-faculty-researcher", 
+            "Student"
         ], 
         "comments": [
-            "I am an Argentine economist, who lives in Argentina and teaches and researches at a public university. Open access for us is the difference between access and no access at all. Open access democratises access to academic research around the world. Many thanks."
+            "I am an Argentine economist, who lives in Argentina and teaches and researches at a public university. Open access for us is the difference between access and no access at all. Open access democratises access to academic research around the world. Many thanks.", 
+            "Hi! I'm researcher in Image Processing and Teleoperation. Your information is very useful and let me advance in knowledge and practice. Moreover, when you share code, we (my research group and me) may implements this in other languages and platforms.\nThanks!\n", 
+            "I'm a engineering doctoral student in Argentina, and naturally, always in need of scientific papers. This helps my a lot because the access of my institution to pay reviews is limited. Thank you."
         ], 
         "article": ""
     }, 
-    "SDN": {
+    "BHS": {
         "num_comments": 0, 
-        "downloads": "1304"
+        "downloads": "3962"
     }, 
     "BHR": {
         "num_comments": 0, 
-        "downloads": "487"
+        "downloads": "511"
     }, 
     "UGA": {
         "num_comments": 1, 
-        "downloads": "1171", 
+        "downloads": "1302", 
         "kind": [
             "Graduate student"
         ], 
@@ -1296,10 +1415,10 @@
     }, 
     "PNG": {
         "num_comments": 0, 
-        "downloads": "139"
+        "downloads": "143"
     }, 
     "CUB": {
         "num_comments": 0, 
-        "downloads": "562"
+        "downloads": "599"
     }
 }
