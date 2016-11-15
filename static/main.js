@@ -14,7 +14,7 @@ var color_q0 = 'rgb(255,255,255)',
 	];
 
 var t = d3.scale.threshold()
-	.domain([1, 17, 284, 4772, 80331, 1352381])
+	.domain([1, 18, 322, 5776, 103617, 1859030])
 	.range(['q0', 'q1', 'q2', 'q3', 'q4', 'q5']);
 
 var commentData = {}
