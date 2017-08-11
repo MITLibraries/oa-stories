@@ -10,7 +10,7 @@ output_file = 'data/comments.txt'
 def get_data_array(sheet):
 	RESULTS = []
 	for row in range(1, sheet.nrows):
-		if str(sheet.cell_value(row, 5)) == 'Y':
+		if str(sheet.cell_value(row, 5)) != 'N':
 			kind = sheet.cell_value(row, 0).encode('utf-8')
 			country = sheet.cell_value(row, 6).encode('utf-8')
 			comment = sheet.cell_value(row, 7).encode('utf-8')
@@ -43,7 +43,7 @@ def get_data_array_from_csv(csv_file):
 		for row in reader:
 			numRows += 1
 		file.seek(0)
-		
+
 		for i in range(numRows):
 			data_row = reader.next()
 			data.append(data_row)
