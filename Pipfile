@@ -1,0 +1,16 @@
+[[source]]
+verify_ssl = true
+name = "pypi"
+url = "https://pypi.org/simple"
+
+[packages]
+"beautifulsoup4" = "*"
+gunicorn = "*"
+flask = "*"
+requests = "*"
+xlrd = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
