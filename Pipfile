@@ -9,6 +9,7 @@ gunicorn = "*"
 flask = "*"
 requests = "*"
 xlrd = "*"
+raven = {extras = ["flask"]}
 
 [dev-packages]
 
