@@ -1,0 +1,20 @@
+{
+  "name": "oa-stories",
+  "scripts": {},
+  "env": {
+    "SENTRY_DSN": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
