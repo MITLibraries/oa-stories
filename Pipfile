@@ -9,8 +9,8 @@ gunicorn = "*"
 flask = "*"
 requests = "*"
 xlrd = "*"
-raven = {extras = ["flask"]}
 flask-sslify = "*"
+sentry-sdk = {extras = ["flask"],version = "*"}
 
 [dev-packages]
 
