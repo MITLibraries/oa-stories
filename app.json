@@ -1,11 +1,7 @@
 {
   "name": "oa-stories",
   "scripts": {},
-  "env": {
-    "SENTRY_DSN": {
-      "required": true
-    }
-  },
+  "env": {},
   "formation": {
     "web": {
       "quantity": 1
