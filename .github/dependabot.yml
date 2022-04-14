@@ -1,0 +1,34 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "09:00"
+    timezone: America/New_York
+  open-pull-requests-limit: 10
+  reviewers:
+  - hakbailey
+  ignore:
+  - dependency-name: gunicorn
+    versions:
+    - 20.1.0
+  - dependency-name: jinja2
+    versions:
+    - 2.11.3
+  - dependency-name: sentry-sdk
+    versions:
+    - 0.19.5
+    - 0.20.0
+    - 0.20.2
+    - 0.20.3
+    - 1.0.0
+  - dependency-name: requests
+    versions:
+    - 2.25.1
+  - dependency-name: xlrd
+    versions:
+    - 2.0.1
+  - dependency-name: beautifulsoup4
+    versions:
+    - 4.9.3
